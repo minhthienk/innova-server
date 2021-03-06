@@ -1,0 +1,1081 @@
+//NOTE: "Mazda_AFS/ALM_4249" -- "Steering Wheel Absolute Angle"
+//NOTE: PID: 22 28 43 --- Value: -906.1 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 28 43 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 28 43 59 9b 00 00 	NONE	0	0
+
+//NOTE: "Mazda_FSC_4316" -- "Brake Switch"
+//NOTE: PID: 22 2B 00 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2b 00 00 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_4394" -- "Steering Wheel Absolute Angle"
+//NOTE: PID: 22 33 02 --- Value: 4004.4 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 33 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 33 02 ba e4 00 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_4615" -- "Battery Temperature"
+//NOTE: PID: 22 40 29 --- Value: 179.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 29 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 29 db 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_4697" -- "Engine Starter Motor Relay 1"
+//NOTE: PID: 22 40 C2 --- Value: 25.2 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 C2 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 c2 fc 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_4699" -- "Engine Starter Motor Relay 2"
+//NOTE: PID: 22 40 C3 --- Value: 17.4 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 C3 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 c3 ae 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_4694" -- "Steering Wheel Angle Sensor Aiming Angle A"
+//NOTE: PID: 22 40 48 --- Value: 157.44 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 48 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 48 3d 80 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_4722" -- "Steering Wheel Angle Sensor Aiming Angle B"
+//NOTE: PID: 22 40 49 --- Value: 223.03 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 49 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 49 57 1f 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5117" -- "Fuel Sensor Input (Main Gauge)"
+//NOTE: PID: 22 60 05 --- Value: 36699.0 (Ohms)
+//NOTE: 
+//NOTE: "Mazda_IC_5118" -- "Fuel Sensor Input (Sub Gauge)"
+//NOTE: PID: 22 60 05 --- Value: 21626.0 (Ohms)
+//NOTE: 
+//NOTE: "Mazda_IC_2496" -- "Fuel Level Sensor Input 1"
+//NOTE: PID: 22 60 05 --- Value: 35388.0 (Ohms)
+//NOTE: 
+//NOTE: "Mazda_IC_2497" -- "Fuel Level Sensor Input 2"
+//NOTE: PID: 22 60 05 --- Value: 28180.0 (Ohms)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 60 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 60 05 8f 7f 7e 7e 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5128" -- "Oil Pressure Switch"
+//NOTE: PID: 22 61 A4 --- Value: On(Low)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 A4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 a4 02 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5130" -- "Tachometer"
+//NOTE: PID: 22 61 B0 --- Value: 19300.0 (rpm)
+//NOTE: 
+//NOTE: "Mazda_IC_2523" -- "Tachometer"
+//NOTE: PID: 22 61 B0 --- Value: 9100.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b0 db 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5254" -- "Module Supply Voltage (IG1)"
+//NOTE: PID: 22 A2 21 --- Value: 11.9 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A2 21 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a2 21 77 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5430" -- "Module Supply Voltage (+B1)"
+//NOTE: PID: 22 D1 10 --- Value: 511.67 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 10 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 10 c7 df 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5476" -- "Number of Transmitters Registered in Module"
+//NOTE: PID: 22 C2 5B --- Value: 173.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C2 5B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c2 5b ad 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_5453" -- "Module Supply Voltage (IG)"
+//NOTE: PID: 22 D1 11 --- Value: 5.7 (V)
+//NOTE: 
+//NOTE: "Mazda_AFS/ALM_5530" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 17.9 (V)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5456" -- "Module Supply Voltage (+B)"
+//NOTE: PID: 22 D1 11 --- Value: 10.6 (V)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5472" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 11.1 (V)
+//NOTE: 
+//NOTE: "Mazda_FSC_5442" -- "Module Supply Voltage (IG1)"
+//NOTE: PID: 22 D1 11 --- Value: 1.3 (V)
+//NOTE: 
+//NOTE: "Mazda_HUD_MZ_5546" -- "Module Supply Voltage (+B)"
+//NOTE: PID: 22 D1 11 --- Value: 24.9 (V)
+//NOTE: 
+//NOTE: "Mazda_IC_5444" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 13.0 (V)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_5473" -- "Module Supply Voltage"
+//NOTE: PID: 22 D1 11 --- Value: 2.6 (V)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_5474" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 0.5 (V)
+//NOTE: 
+//NOTE: "Mazda_SSU_5449" -- "Module Supply Voltage (+B2)"
+//NOTE: PID: 22 D1 11 --- Value: 3.1 (V)
+//NOTE: 
+//NOTE: "Mazda_SSU_5450" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 0.5 (V)
+//NOTE: 
+//NOTE: "Mazda_IC_3500" -- "Module Supply Voltage"
+//NOTE: PID: 22 D1 11 --- Value: 4.4 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 11 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5555" -- "Module Supply Voltage (ACC)"
+//NOTE: PID: 22 D1 12 --- Value: 10.24 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 12 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 12 80 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5558" -- "Outside Car Temperature"
+//NOTE: PID: 22 D1 14 --- Value: 0.5 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 14 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 14 51 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5571" -- "Module Supply Voltage (+B3)"
+//NOTE: PID: 22 D1 2E --- Value: 400.15 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 2E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 2e 9c 4f 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5654" -- "Cruise Control Switch"
+//NOTE: PID: 22 D9 77 --- Value: MODE
+//NOTE: 
+//NOTE: "Mazda_SSU_5653" -- "Speed Limitter Switch"
+//NOTE: PID: 22 D9 77 --- Value: Unknown
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 77 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 77 00 33 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5659" -- "INFO Switch"
+//NOTE: PID: 22 D9 75 --- Value: SW1_On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 75 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 75 10 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5749" -- "Communication Status of Transponder"
+//NOTE: PID: 22 D9 71 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5746" -- "Reception Status of RF Signal"
+//NOTE: PID: 22 D9 71 --- Value: Transmitter
+//NOTE: 
+//NOTE: "Mazda_SSU_5747" -- "Transmitter Number which is received on RF Communication"
+//NOTE: PID: 22 D9 71 --- Value: No.1
+//NOTE: 
+//NOTE: "Mazda_SSU_5748" -- "Security Indicator"
+//NOTE: PID: 22 D9 71 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 71 c9 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5583" -- "Fuel Sensor Input Value (Main Hall IC Gauge)"
+//NOTE: PID: 22 D9 00 --- Value: 5112.1 (V)
+//NOTE: 
+//NOTE: "Mazda_IC_5584" -- "Fuel Sensor Input Value (Sub Hall IC Gauge)"
+//NOTE: PID: 22 D9 00 --- Value: 1310.8 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 00 c7 b1 33 34 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5744" -- "SSB (Start Stop Button) Amber"
+//NOTE: PID: 22 D9 70 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5745" -- "SSB (Start Stop Button) Green"
+//NOTE: PID: 22 D9 70 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5743" -- "SSB (Start Stop Button) Illumination"
+//NOTE: PID: 22 D9 70 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 70 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 70 20 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5762" -- "Hazard Switch"
+//NOTE: PID: 22 D9 72 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5763" -- "Paddle Down Switch"
+//NOTE: PID: 22 D9 72 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5764" -- "Paddle Up Switch"
+//NOTE: PID: 22 D9 72 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 72 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 72 04 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5765" -- "Brake Switch 1"
+//NOTE: PID: 22 D9 73 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5766" -- "Clutch Cut Switch"
+//NOTE: PID: 22 D9 73 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5767" -- "Clutch Switch"
+//NOTE: PID: 22 D9 73 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5768" -- "Inhibitor Switch"
+//NOTE: PID: 22 D9 73 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5769" -- "P Range Switch"
+//NOTE: PID: 22 D9 73 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 73 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 73 d0 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5680" -- "Liftgate/Trunk Lock Switch"
+//NOTE: PID: 22 D9 74 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5681" -- "Liftgate/Trunk Unlatch Switch"
+//NOTE: PID: 22 D9 74 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5682" -- "Driver Side Door Lock Link Switch (Lock Side)"
+//NOTE: PID: 22 D9 74 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5683" -- "Request Switch (Left Front)"
+//NOTE: PID: 22 D9 74 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5684" -- "Request Switch (Right Front)"
+//NOTE: PID: 22 D9 74 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5657" -- "Touch Sensor (Left Front)"
+//NOTE: PID: 22 D9 74 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5658" -- "Touch Sensor (Right Front)"
+//NOTE: PID: 22 D9 74 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 74 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 74 08 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5655" -- "Front Washer Switch"
+//NOTE: PID: 22 D9 78 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5664" -- "Rear Washer Switch"
+//NOTE: PID: 22 D9 78 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5665" -- "Front Wiper Switch (INT)"
+//NOTE: PID: 22 D9 78 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5666" -- "Front Wiper Switch (LOW)"
+//NOTE: PID: 22 D9 78 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5667" -- "Wiper INT Encode A"
+//NOTE: PID: 22 D9 78 --- Value: Low
+//NOTE: 
+//NOTE: "Mazda_SSU_5668" -- "Wiper INT Encode B"
+//NOTE: PID: 22 D9 78 --- Value: Low
+//NOTE: 
+//NOTE: "Mazda_SSU_5669" -- "Wiper INT Encode C"
+//NOTE: PID: 22 D9 78 --- Value: Low
+//NOTE: 
+//NOTE: "Mazda_SSU_5670" -- "Rear Wiper Switch (INT)"
+//NOTE: PID: 22 D9 78 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5671" -- "Rear Wiper Switch (ON)"
+//NOTE: PID: 22 D9 78 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 78 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 78 34 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5790" -- "Steering Wheel Angle Sensor B"
+//NOTE: PID: 22 D9 82 --- Value: 2.85 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 82 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 82 02 47 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5791" -- "Steering Wheel Angle Sensor"
+//NOTE: PID: 22 D9 83 --- Value: Without
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 83 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 83 00 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5792" -- "Steering Wheel Angle Sensor Supply Voltage"
+//NOTE: PID: 22 D9 84 --- Value: 0.5 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 84 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 84 00 66 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5787" -- "Front Fog Switch"
+//NOTE: PID: 22 D9 80 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5788" -- "Headlight Switch (HI)"
+//NOTE: PID: 22 D9 80 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5789" -- "Headlight Switch (LOW)"
+//NOTE: PID: 22 D9 80 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5781" -- "Headlight Switch (OFF)"
+//NOTE: PID: 22 D9 80 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5782" -- "Headlight Switch (PASS)"
+//NOTE: PID: 22 D9 80 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5783" -- "Headlight Switch (TNS)"
+//NOTE: PID: 22 D9 80 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5784" -- "Rear Fog Switch"
+//NOTE: PID: 22 D9 80 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5785" -- "Turn Switch (Left)"
+//NOTE: PID: 22 D9 80 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5786" -- "Turn Switch (Right)"
+//NOTE: PID: 22 D9 80 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 80 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 80 aa 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5797" -- "Steering Wheel Angle Sensor A"
+//NOTE: PID: 22 D9 81 --- Value: 3.25 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 81 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 81 02 99 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5770" -- "Electrical Steering Unlock Switch Status"
+//NOTE: PID: 22 D9 7B --- Value: Unlock
+//NOTE: 
+//NOTE: "Mazda_SSU_5771" -- "Electrical Steering Unlock Switch Memory Value"
+//NOTE: PID: 22 D9 7B --- Value: Unlock
+//NOTE: 
+//NOTE: "Mazda_SSU_5772" -- "Electrical Steering Unlock / Lock Switch Status"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5773" -- "Electrical Steering Unlock / Lock Switch Memory Value"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5774" -- "Ignition Position"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5775" -- "ACC Relay"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5776" -- "IG1 Relay"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5777" -- "IG2 Relay"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+//NOTE: "Mazda_SSU_5778" -- "Shift Lock Solenoid"
+//NOTE: PID: 22 D9 7B --- Value: Off (Lock)
+//NOTE: 
+//NOTE: "Mazda_SSU_5779" -- "SSB (Start Stop Button) 1"
+//NOTE: PID: 22 D9 7B --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_SSU_5780" -- "SSB (Start Stop Button) 2"
+//NOTE: PID: 22 D9 7B --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 7B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 7b 78 f0 60 00 	NONE	0	0
+
+//NOTE: "Mazda_SSU_5820" -- "Transmitter Number of Low Voltage"
+//NOTE: PID: 22 D9 85 --- Value: No.3
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 85 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 85 60 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_FSC_5823" -- "Lane Display Status in Display"
+//NOTE: PID: 22 D9 B0 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_FSC_5824" -- "Warning Status in Display"
+//NOTE: PID: 22 D9 B0 --- Value: Camera_BLK
+//NOTE: 
+//NOTE: "Mazda_FSC_5825" -- "Control Signal of HBC Hi/Low Beam"
+//NOTE: PID: 22 D9 B0 --- Value: Low_Request
+//NOTE: 
+//NOTE: "Mazda_FSC_5826" -- "HBC Indicator Lamp Status"
+//NOTE: PID: 22 D9 B0 --- Value: Green_Flash
+//NOTE: 
+//NOTE: "Mazda_FSC_5827" -- "LDWS Indicator Lamp Status"
+//NOTE: PID: 22 D9 B0 --- Value: Amber_On
+//NOTE: 
+//NOTE: "Mazda_FSC_5828" -- "LDWS Buzzer"
+//NOTE: PID: 22 D9 B0 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_FSC_5829" -- "LDWS Switch"
+//NOTE: PID: 22 D9 B0 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_FSC_5830" -- "Control Signal of Rubmle Strips Sound"
+//NOTE: PID: 22 D9 B0 --- Value: Left
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 B0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 10 09 62 d9 b0 68 16 50 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 21 00 00 00 00 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5811" -- "Control Signal of Answerback (Burglar)"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5813" -- "Control Signal of Answerback Hazard (Remote Engine Start)"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5814" -- "Control Signal of Answerback Horn (Remote Engine Start)"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5815" -- "Answerback Horn (Keyless)"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5798" -- "Control Signal of Burglar Alarm"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5799" -- "ESS Status"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5800" -- "Hazard Switch"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5801" -- "Hazard Lamp"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5802" -- "Ignition Status"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5803" -- "Control Signal of Panic"
+//NOTE: PID: 22 DA 00 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5804" -- "Control Signal of Panic Hazard (Remote Engine Start)"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5805" -- "Control Signal of Panic Horn (Remote Engine Start)"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5806" -- "Turn Light (Left)"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5807" -- "Turn Light (Right)"
+//NOTE: PID: 22 DA 00 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5808" -- "Turn Switch"
+//NOTE: PID: 22 DA 00 --- Value: Turn_L_On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 da 00 81 d3 10 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5859" -- "Front Fog Lamp"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5860" -- "Front Fog Switch"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5861" -- "Headlight"
+//NOTE: PID: 22 DA 01 --- Value: H/L_LOW
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5862" -- "Control Signal of Head Light from Rain Light Sensor"
+//NOTE: PID: 22 DA 01 --- Value: TNS+H/L_On_J
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5863" -- "Headlight (HI)"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5864" -- "Headlight Switch (HI)"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5865" -- "Headlight Switch (LOW) 1"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5866" -- "Headlight Switch (OFF)"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5867" -- "Headlight Switch (PASS)"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5868" -- "Headlight Switch (TNS)"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5869" -- "Headlight (TNS)"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5870" -- "Control Signal of HBC"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5877" -- "HBC Status"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5878" -- "Light Off Control (Auto)"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5879" -- "Light Off Control (Battery Saver)"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5871" -- "Parking Brake Switch"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5872" -- "Rear Fog Lamp"
+//NOTE: PID: 22 DA 01 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5873" -- "Rear Fog Switch"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5874" -- "Control Signal of Remote Engine Start"
+//NOTE: PID: 22 DA 01 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 da 01 e0 e0 4a d3 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5844" -- "Head Light Cleaner Relay"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5845" -- "Fault Status of Rain Light Sensor"
+//NOTE: PID: 22 DA 02 --- Value: O.K.
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5846" -- "Washer Fluid Level"
+//NOTE: PID: 22 DA 02 --- Value: Unknown
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5847" -- "Front Washer Motor Relay"
+//NOTE: PID: 22 DA 02 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5848" -- "Rear Washer Motor Relay"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5849" -- "Front Washer Switch"
+//NOTE: PID: 22 DA 02 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5850" -- "Rear Washer Switch"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5851" -- "Control Signal of Wiper from Rain Light Sensor"
+//NOTE: PID: 22 DA 02 --- Value: Single_Wipe
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5852" -- "Front Wiper Switch"
+//NOTE: PID: 22 DA 02 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5853" -- "Front Wiper INT Level"
+//NOTE: PID: 22 DA 02 --- Value: 25.0 (%)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5854" -- "Front Wiper Switch (LOW)"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5855" -- "Movement Status of Front Wiper"
+//NOTE: PID: 22 DA 02 --- Value: Move
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5856" -- "Front Wiper Relay (HI)"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5857" -- "Front Wiper Relay (LOW)"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5901" -- "Rear Wiper Switch"
+//NOTE: PID: 22 DA 02 --- Value: LOW
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5902" -- "Rear Wiper Relay"
+//NOTE: PID: 22 DA 02 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 da 02 19 19 28 03 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5899" -- "Brake Switch"
+//NOTE: PID: 22 DA 05 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5900" -- "Brake Fluid Level Switch"
+//NOTE: PID: 22 DA 05 --- Value: Low
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5915" -- "Shift Lever Position"
+//NOTE: PID: 22 DA 05 --- Value: P
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 da 05 24 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_5949" -- "Blower Motor Relay"
+//NOTE: PID: 22 DA 03 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5950" -- "Control Signal of Front Defogger"
+//NOTE: PID: 22 DA 03 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5951" -- "Control Signal of Rear Defogger"
+//NOTE: PID: 22 DA 03 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5952" -- "Control Signal of Heater Control (Remote Engine Start)"
+//NOTE: PID: 22 DA 03 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_F_BCM_5953" -- "Control Signal of PTC Heater"
+//NOTE: PID: 22 DA 03 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 da 03 70 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_6042" -- "Seat Heater Cut"
+//NOTE: PID: 22 DA 11 --- Value: Cut
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 da 11 00 00 40 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_6043" -- "DCDC Converter Status"
+//NOTE: PID: 22 DA 1E --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6044" -- "DCDC Converter Output Voltage"
+//NOTE: PID: 22 DA 1E --- Value: 27.72 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DA 1E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 10 09 62 da 1e 50 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 21 00 6c 48 00 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_6064" -- "BSM OFF / RVM ON Switch"
+//NOTE: PID: 22 DB 60 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_IC_6065" -- "DSC OFF Switch"
+//NOTE: PID: 22 DB 60 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_IC_6059" -- "i-stop OFF Switch"
+//NOTE: PID: 22 DB 60 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_IC_6060" -- "LDWS ON Switch"
+//NOTE: PID: 22 DB 60 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_IC_6061" -- "Fault Status of Multi Switch"
+//NOTE: PID: 22 DB 60 --- Value: O.K.
+//NOTE: 
+//NOTE: "Mazda_IC_6062" -- "TPMS Calibration Switch"
+//NOTE: PID: 22 DB 60 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DB 60 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 db 60 b0 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_6198" -- "AT Manual Mode Switch"
+//NOTE: PID: 22 DB 61 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_IC_6199" -- "AT Shift Down Switch"
+//NOTE: PID: 22 DB 61 --- Value: Reserved
+//NOTE: 
+//NOTE: "Mazda_IC_6200" -- "AT Shift Up Switch"
+//NOTE: PID: 22 DB 61 --- Value: Reserved
+//NOTE: 
+//NOTE: "Mazda_IC_6201" -- "Interior Illumination Mode"
+//NOTE: PID: 22 DB 61 --- Value: Off (Day)
+//NOTE: 
+//NOTE: "Mazda_IC_6202" -- "Parking Brake Switch"
+//NOTE: PID: 22 DB 61 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DB 61 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 db 61 a0 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_6204" -- "Reverse Gear Switch"
+//NOTE: PID: 22 DB 62 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_IC_6205" -- "Reverse Lamp"
+//NOTE: PID: 22 DB 62 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DB 62 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 db 62 0a 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6258" -- "AFS Status"
+//NOTE: PID: 22 DB B5 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DB B5 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 db b5 80 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6313" -- "Rear Height Sensor Input Voltage"
+//NOTE: PID: 22 DB B2 --- Value: 3.82 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DB B2 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 db b2 bf 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6256" -- "Rear Height Sensor Input Voltage at the time of Initialization"
+//NOTE: PID: 22 DB B4 --- Value: 0.9 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DB B4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 db b4 2d 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_SBS/MRCC_6416" -- "Distance to Target"
+//NOTE: PID: 22 DC 74 --- Value: 3670.2 (m)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DC 74 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dc 74 8f 5e 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6542" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: Under 0 degrees C
+//NOTE: 
+//NOTE: "Mazda_AFS/ALM_6521" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Engine Stop
+//NOTE: 
+//NOTE: "Mazda_AFS/ALM_6522" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: D
+//NOTE: 
+//NOTE: "Mazda_AFS/ALM_6523" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: 0 - 10 km/h
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6419" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Under 20%
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6400" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Config Error
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6401" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: 0 - Under 80 degrees C
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6402" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Engine Stop
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6403" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: R
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6404" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+//NOTE: "Mazda_IC_6405" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Under 20%
+//NOTE: 
+//NOTE: "Mazda_IC_6406" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Config Error
+//NOTE: 
+//NOTE: "Mazda_IC_6407" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: Over 80 degrees C
+//NOTE: 
+//NOTE: "Mazda_IC_6408" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Engine Stop
+//NOTE: 
+//NOTE: "Mazda_IC_6409" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: P/N
+//NOTE: 
+//NOTE: "Mazda_IC_6410" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: STOP
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6437" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Over 20%
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6438" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Config Error
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6439" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: 0 - Under 80 degrees C
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6440" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Engine Stop
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6441" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: R
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6442" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: 0 - 10 km/h
+//NOTE: 
+//NOTE: "Mazda_SSU_6443" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+//NOTE: "Mazda_SSU_6444" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Config Complete
+//NOTE: 
+//NOTE: "Mazda_SSU_6445" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: Under 0 degrees C
+//NOTE: 
+//NOTE: "Mazda_SSU_6446" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Under 1500 rpm
+//NOTE: 
+//NOTE: "Mazda_SSU_6447" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: R
+//NOTE: 
+//NOTE: "Mazda_SSU_6448" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+//NOTE: "Mazda_AFS/ALM_6499" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+//NOTE: "Mazda_AFS/ALM_6500" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Not Configured
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DC E0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dc e0 c3 f7 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6554" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 3276.0 (s)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6545" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 41942.0 (s)
+//NOTE: 
+//NOTE: "Mazda_IC_6548" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 59636.0 (s)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6551" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 50461.0 (s)
+//NOTE: 
+//NOTE: "Mazda_SSU_6552" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 15728.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DC E1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dc e1 ff ff 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6636" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 408021893.5 (s)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6607" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 377957122.3 (s)
+//NOTE: 
+//NOTE: "Mazda_FSC_6608" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DD 00 --- Value: 124152.02 (s)
+//NOTE: 
+//NOTE: "Mazda_IC_6609" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 133143986.3 (s)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6626" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 377957122.3 (s)
+//NOTE: 
+//NOTE: "Mazda_SSU_6625" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 287762809.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 00 ff ff ff ff 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6672" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 11744050.0 (km)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6654" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 5704253.0 (km)
+//NOTE: 
+//NOTE: "Mazda_FSC_6655" -- "Operation Mode"
+//NOTE: PID: 22 DD 01 --- Value: Normal
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6663" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 167772.0 (km)
+//NOTE: 
+//NOTE: "Mazda_SSU_6662" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 1006632.0 (km)
+//NOTE: 
+//NOTE: "Mazda_IC_6643" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 5368708.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 01 ff ff ff 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6702" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 40.75 (V)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6685" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 63.25 (V)
+//NOTE: 
+//NOTE: "Mazda_FSC_6686" -- "ECU Internal Temperature"
+//NOTE: PID: 22 DD 02 --- Value: -5.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_6687" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 46.5 (V)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6692" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 21.0 (V)
+//NOTE: 
+//NOTE: "Mazda_SSU_6691" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 5.75 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 02 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_FSC_6709" -- "Vehicle Speed"
+//NOTE: PID: 22 DD 03 --- Value: 109.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 03 6d 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6737" -- "Ambient Air Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 102.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6721" -- "Ambient Air Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 90.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_6722" -- "Ambient Air Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 44.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6727" -- "Ambient Air Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 13.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 05 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_6765" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Crank  (Position 3)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6747" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Post Ignition (Position 1)
+//NOTE: 
+//NOTE: "Mazda_IC_6748" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Ignition On (Position 2)
+//NOTE: 
+//NOTE: "Mazda_SBS/MRCC_6754" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Running (Position 2)
+//NOTE: 
+//NOTE: "Mazda_SSU_6753" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Key Out
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 06 0f 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_AFS/ALM_7022" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 68.0 (Km/h)
+//NOTE: 
+//NOTE: "Mazda_F_BCM_6961" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 175.0 (Km/h)
+//NOTE: 
+//NOTE: "Mazda_FSC_6976" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 112.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0d ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_F_BCM_7217" -- "Engine Coolant Temperature"
+//NOTE: PID: 22 F4 67 --- Value: 100.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 67 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 67 8c 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_668" -- "Tire Temperature (Wheel Unit 1)"
+//NOTE: PID: 22 20 05 --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_IC_671" -- "Supply Voltage (Wheel Unit 1)"
+//NOTE: PID: 22 20 05 --- Value: Normal
+//NOTE: 
+//NOTE: "Mazda_IC_672" -- "Tire Pressure (Wheel Unit 2)"
+//NOTE: PID: 22 20 05 --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_IC_673" -- "Tire Temperature (Wheel Unit 2)"
+//NOTE: PID: 22 20 05 --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_IC_674" -- "Supply Voltage (Wheel Unit 2)"
+//NOTE: PID: 22 20 05 --- Value: Normal
+//NOTE: 
+//NOTE: "Mazda_IC_675" -- "Tire Pressure (Wheel Unit 3)"
+//NOTE: PID: 22 20 05 --- Value: Normal
+//NOTE: 
+//NOTE: "Mazda_IC_676" -- "Tire Temperature (Wheel Unit 3)"
+//NOTE: PID: 22 20 05 --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_IC_677" -- "Tire Pressure (Wheel Unit 4)"
+//NOTE: PID: 22 20 05 --- Value: Normal
+//NOTE: 
+//NOTE: "Mazda_IC_678" -- "Tire Temperature (Wheel Unit 4)"
+//NOTE: PID: 22 20 05 --- Value: Normal
+//NOTE: 
+//NOTE: "Mazda_IC_679" -- "Supply Voltage (Wheel Unit 4)"
+//NOTE: PID: 22 20 05 --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_IC_680" -- "Supply Voltage (Wheel Unit 3)"
+//NOTE: PID: 22 20 05 --- Value: Error
+//NOTE: 
+//NOTE: "Mazda_IC_681" -- "Tire Pressure (Wheel Unit 1)"
+//NOTE: PID: 22 20 05 --- Value: Normal
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 20 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 20 05 0c 07 02 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1275" -- "Wheel Unit ID (Wheel Unit 1)"
+//NOTE: PID: 22 2A 00 --- Value: FD70A3D6
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 00 fd 70 a3 d6 	NONE	0	0
+
+//NOTE: "Mazda_IC_1277" -- "Wheel Unit ID (Wheel Unit 2)"
+//NOTE: PID: 22 2A 01 --- Value: 828F5C28
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 01 82 8f 5c 28 	NONE	0	0
+
+//NOTE: "Mazda_IC_1279" -- "Wheel Unit ID (Wheel Unit 3)"
+//NOTE: PID: 22 2A 02 --- Value: 33333333
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 02 33 33 33 33 	NONE	0	0
+
+//NOTE: "Mazda_IC_1281" -- "Wheel Unit ID (Wheel Unit 4)"
+//NOTE: PID: 22 2A 03 --- Value: FFFFFFFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 03 ff ff ff ff 	NONE	0	0
+
+//NOTE: "Mazda_IC_1282" -- "Tire Pressure (Wheel Unit 1)"
+//NOTE: PID: 22 2A 05 --- Value: 54.92 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 05 28 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1285" -- "Tire Pressure (Wheel Unit 2)"
+//NOTE: PID: 22 2A 06 --- Value: 230.66 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 06 a8 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1287" -- "Tire Pressure (Wheel Unit 3)"
+//NOTE: PID: 22 2A 07 --- Value: 241.65 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 07 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 07 b0 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1288" -- "Tire Pressure (Wheel Unit 4)"
+//NOTE: PID: 22 2A 08 --- Value: 234.78 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 08 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 08 ab 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1291" -- "Tire Temperature (Wheel Unit 1)"
+//NOTE: PID: 22 2A 0A --- Value: 204.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 0A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 0a fe 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1292" -- "Tire Temperature (Wheel Unit 2)"
+//NOTE: PID: 22 2A 0B --- Value: -35.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 0B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 0b 0f 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1295" -- "Tire Temperature (Wheel Unit 3)"
+//NOTE: PID: 22 2A 0C --- Value: 31.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 0C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 0c 51 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1296" -- "Tire Temperature (Wheel Unit 4)"
+//NOTE: PID: 22 2A 0D --- Value: 46.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2A 0D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2a 0d 60 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1793" -- "Odometer Rolling Count"
+//NOTE: PID: 22 40 02 --- Value: 0.0086 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 02 2b 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2524" -- "Engine Coolant Temperature Gauge"
+//NOTE: PID: 22 61 B2 --- Value: 179.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B2 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b2 db 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2527" -- "Speedometer"
+//NOTE: PID: 22 61 B4 --- Value: 558.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b4 ba 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2724" -- "External Ambient Temperature"
+//NOTE: PID: 22 99 24 --- Value: -39.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 99 24 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 99 24 02 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2751" -- "Evaporator Temperature"
+//NOTE: PID: 22 99 5A --- Value: 86.5 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 99 5A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 99 5a fd 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_3194" -- "Odometer"
+//NOTE: PID: 22 DE 02 --- Value: 8556379.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DE 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 de 02 82 8f 5b 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_3305" -- "Number of Keys Registered in Module"
+//NOTE: PID: 22 C1 04 --- Value: 254.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C1 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c1 04 fe 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5131" -- "Fuel Gauge"
+//NOTE: PID: 22 61 B1 --- Value: 122.0 (L)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b1 7a 00 00 00 	NONE	0	0
+
+
+

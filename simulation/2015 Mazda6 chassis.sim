@@ -1,0 +1,395 @@
+//NOTE: "Mazda_EPB_4424" -- "Electric Park Brake Switch Input Status"
+//NOTE: PID: 22 2B 14 --- Value: Apply
+//NOTE: 
+//NOTE: "Mazda_EPB_4425" -- "Electric Parking Brake Switch Input Status"
+//NOTE: PID: 22 2B 14 --- Value: Apply
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2B 14 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2b 14 01 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_4426" -- "Electric Parking Brake Actuator Position (Left)"
+//NOTE: PID: 22 2B 1A --- Value: Applying
+//NOTE: 
+//NOTE: "Mazda_EPB_4427" -- "Electric Parking Brake Actuator Position (Left)"
+//NOTE: PID: 22 2B 1A --- Value: Releasing
+//NOTE: 
+//NOTE: "Mazda_EPB_4428" -- "Left Actuator Position"
+//NOTE: PID: 22 2B 1A --- Value: Applied
+//NOTE: 
+//NOTE: "Mazda_EPB_4429" -- "Right Actuator Position"
+//NOTE: PID: 22 2B 1A --- Value: Applied
+//NOTE: 
+//NOTE: "Mazda_EPB_4430" -- "Electric Parking Brake Actuator Position (Right)"
+//NOTE: PID: 22 2B 1A --- Value: Applying
+//NOTE: 
+//NOTE: "Mazda_EPB_4431" -- "Electric Parking Brake Actuator Position (Right)"
+//NOTE: PID: 22 2B 1A --- Value: Releasing
+//NOTE: 
+//NOTE: "Mazda_EPB_4432" -- "Electric Parking Brake Actuator Position (Maintenance Mode)"
+//NOTE: PID: 22 2B 1A --- Value: Right_On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2B 1A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2b 1a 00 0b 1b 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_4437" -- "Left Motor Current of Electric Parking Brake"
+//NOTE: PID: 22 2B 33 --- Value: 78.72 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2B 33 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2b 33 1e c0 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_4438" -- "Right Motor Current of Electric Parking Brake"
+//NOTE: PID: 22 2B 34 --- Value: 19.68 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2B 34 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2b 34 07 b0 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_4482" -- "Steering Shaft Torque Sensor (Main)"
+//NOTE: PID: 22 33 0B --- Value: -12.5 (Nm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 33 0B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 33 0b 02 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_4392" -- "Steering Wheel Angle"
+//NOTE: PID: 22 33 02 --- Value: -714.5 (°)
+//NOTE: 
+//NOTE: "Mazda_EPS_1568" -- "steering wheel angle"
+//NOTE: PID: 22 33 02 --- Value: 4135.5 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 33 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 33 02 c2 8f 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_4551" -- "Steering Shaft Torque Sensor (Sub)"
+//NOTE: PID: 22 33 0C --- Value: -10.4 (Nm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 33 0C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 33 0c 17 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_DSM_5341" -- "Front Tilt Motor (Down)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5342" -- "Front Tilt Motor (Up)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5343" -- "Recline Motor (Backward)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5344" -- "Recline Motor (Forward)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5345" -- "Rear Tilt Motor (Down)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5346" -- "Rear Tilt Motor (Up)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5347" -- "Slide Motor (Backward)"
+//NOTE: PID: 22 A4 6A --- Value: On
+//NOTE: 
+//NOTE: "Mazda_DSM_5340" -- "Slide Motor (Forward)"
+//NOTE: PID: 22 A4 6A --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 6A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 6a 80 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_5539" -- "Module Supply Voltage"
+//NOTE: PID: 22 D1 11 --- Value: 19.2 (V)
+//NOTE: 
+//NOTE: "Mazda_EPB_5540" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 8.0 (V)
+//NOTE: 
+//NOTE: "Mazda_EPS_5441" -- "Power Supply"
+//NOTE: PID: 22 D1 11 --- Value: 0.7 (V)
+//NOTE: 
+//NOTE: "Mazda_EPS_3496" -- "Module Supply Voltage"
+//NOTE: PID: 22 D1 11 --- Value: 6.5 (V)
+//NOTE: 
+//NOTE: "Mazda_DSM_5462" -- "Module Supply Voltage"
+//NOTE: PID: 22 D1 11 --- Value: 6.5 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 11 d7 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_5563" -- "ECU Internal Temperature"
+//NOTE: PID: 22 D1 17 --- Value: 209.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_EPS_3507" -- "Printed circuit board temperature"
+//NOTE: PID: 22 D1 17 --- Value: 135.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 17 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 17 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_5568" -- "Motor Current"
+//NOTE: PID: 22 D1 18 --- Value: 2490.5 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 18 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 18 61 49 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_5582" -- "Steering Wheel Angle - Estimation"
+//NOTE: PID: 22 D9 00 --- Value: 4856.4 (°)
+//NOTE: 
+//NOTE: "Mazda_EPS_5587" -- "Steering Wheel Estimated Absolute Angle"
+//NOTE: PID: 22 D9 00 --- Value: 4725.3 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 00 df 2d 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_5753" -- "Reception Signal of Target Yaw Rate"
+//NOTE: PID: 22 D9 04 --- Value: 71.25 (°/s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 04 3f aa 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6345" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Accelerator Pedal Off
+//NOTE: 
+//NOTE: "Mazda_EPB_6346" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Config Complete
+//NOTE: 
+//NOTE: "Mazda_EPB_6347" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: Over 80 degrees C
+//NOTE: 
+//NOTE: "Mazda_EPB_6348" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Engine Stop
+//NOTE: 
+//NOTE: "Mazda_EPB_6349" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: D
+//NOTE: 
+//NOTE: "Mazda_EPB_6350" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+//NOTE: "Mazda_EPS_6340" -- "Accelerator Pedal Position Status"
+//NOTE: PID: 22 DC E0 --- Value: Accelerator Pedal Off
+//NOTE: 
+//NOTE: "Mazda_EPS_6351" -- "Configuration Status"
+//NOTE: PID: 22 DC E0 --- Value: Config Error
+//NOTE: 
+//NOTE: "Mazda_EPS_6463" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+//NOTE: "Mazda_EPS_6464" -- "Engine RPM Status"
+//NOTE: PID: 22 DC E0 --- Value: Over 1500 rpm
+//NOTE: 
+//NOTE: "Mazda_EPS_6465" -- "Shift Position Status"
+//NOTE: PID: 22 DC E0 --- Value: R
+//NOTE: 
+//NOTE: "Mazda_EPS_6418" -- "Vehicle Speed Status"
+//NOTE: PID: 22 DC E0 --- Value: Fail
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DC E0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dc e0 c3 cb 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6543" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 22937.0 (s)
+//NOTE: 
+//NOTE: "Mazda_EPS_6544" -- "Times Since Ignition Switch ON"
+//NOTE: PID: 22 DC E1 --- Value: 15728.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DC E1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dc e1 7d f9 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6632" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 403726926.1 (s)
+//NOTE: 
+//NOTE: "Mazda_EPS_6606" -- "Total Time"
+//NOTE: PID: 22 DD 00 --- Value: 64424509.5 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 00 f6 e7 f7 6f 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6668" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 1342177.0 (km)
+//NOTE: 
+//NOTE: "Mazda_EPS_6653" -- "Total Distance"
+//NOTE: PID: 22 DD 01 --- Value: 15267265.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 01 fc ff e1 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6698" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 27.5 (V)
+//NOTE: 
+//NOTE: "Mazda_EPS_6684" -- "Instrument Cluster Power Supply"
+//NOTE: PID: 22 DD 02 --- Value: 26.0 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 02 6e 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6733" -- "Ambient Air Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 16.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_EPS_6720" -- "Ambient Air Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 209.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 05 f9 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPB_6761" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Running - Starting In Progress (Position 2)
+//NOTE: 
+//NOTE: "Mazda_EPS_6746" -- "Power Mode Key State"
+//NOTE: PID: 22 DD 06 --- Value: Accessory (Position 1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 06 0d 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_6959" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 58.0 (Km/h)
+//NOTE: 
+//NOTE: "Mazda_EPS_3370" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 150.0 (Km/h)
+//NOTE: 
+//NOTE: "Mazda_EPS_3370" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 119.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0d ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_7018" -- "Engine RPM"
+//NOTE: PID: 22 F4 0C --- Value: 9994.0 (rpm)
+//NOTE: 
+//NOTE: "Mazda_EPS_3360" -- "Engine Revolutions Per Minute"
+//NOTE: PID: 22 F4 0C --- Value: 819.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0c 9c ec 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_7188" -- "Current Overheat Protection (Complete)"
+//NOTE: PID: 22 FD 02 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_EPS_7190" -- "Current Overheat Protection (Middle)"
+//NOTE: PID: 22 FD 02 --- Value: Yes
+//NOTE: 
+//NOTE: "Mazda_EPS_7185" -- "History of Overheat Protection (Complete)"
+//NOTE: PID: 22 FD 02 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_EPS_7186" -- "History of Overheat Protection (Middle)"
+//NOTE: PID: 22 FD 02 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_EPS_3732" -- "History Of Overheat Protection 45"
+//NOTE: PID: 22 FD 02 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_EPS_3733" -- "Current Overheat Protection 60"
+//NOTE: PID: 22 FD 02 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_EPS_3734" -- "Current Overheat Protection 45"
+//NOTE: PID: 22 FD 02 --- Value: Yes
+//NOTE: 
+//NOTE: "Mazda_EPS_3735" -- "History Of Overheat Protection 60"
+//NOTE: PID: 22 FD 02 --- Value: Yes
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 FD 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 fd 02 2a 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_7280" -- "IG ON Counter after Overheat Protection (Middle)"
+//NOTE: PID: 22 FD 01 --- Value: 71.0
+//NOTE: 
+//NOTE: "Mazda_EPS_3731" -- "Overheat Aging 60"
+//NOTE: PID: 22 FD 01 --- Value: 239.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 FD 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 fd 01 ef 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_7259" -- "IG ON Counter after Overheat Protection (Complete)"
+//NOTE: PID: 22 FD 03 --- Value: 135.0
+//NOTE: 
+//NOTE: "Mazda_EPS_3736" -- "Overheat Aging 45"
+//NOTE: PID: 22 FD 03 --- Value: 33.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 FD 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 fd 03 a7 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_7283" -- "Center Value of Torque Sensor"
+//NOTE: PID: 22 FD 04 --- Value: 6.2 (Nm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 FD 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 fd 04 bd 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_EPS_1564" -- "Steering Wheel Rotation Speed"
+//NOTE: PID: 22 33 01 --- Value: 632.0 (°/s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 33 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 33 01 9e 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_DSM_5297" -- "Front Tilt Switch (Down)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5298" -- "Front Tilt Switch (Up)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5299" -- "Memory Set Switch"
+//NOTE: PID: 22 A4 65 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_DSM_5300" -- "Memory Switch 1"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5301" -- "Memory Switch 2"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5302" -- "Memory Switch 3"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5303" -- "Recline Switch (Down)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5304" -- "Recline Switch (Up)"
+//NOTE: PID: 22 A4 65 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_DSM_5305" -- "Rear Tilt Switch (Down)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5294" -- "Rear Tilt Switch (Up)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5295" -- "Slide Switch (Backward)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5296" -- "Slide Switch (Forward)"
+//NOTE: PID: 22 A4 65 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 65 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 65 10 02 00 00 	NONE	0	0
+
+//NOTE: "Mazda_DSM_5352" -- "Mirror Switch (Up)"
+//NOTE: PID: 22 A4 9E --- Value: INACTIVE
+//NOTE: 
+//NOTE: "Mazda_DSM_5353" -- "Right Mirror Select Switch"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Mazda_DSM_5348" -- "Left Mirror Select Switch"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Mazda_DSM_5349" -- "Mirror Switch (Down)"
+//NOTE: PID: 22 A4 9E --- Value: INACTIVE
+//NOTE: 
+//NOTE: "Mazda_DSM_5350" -- "Mirror Switch  (Left)"
+//NOTE: PID: 22 A4 9E --- Value: INACTIVE
+//NOTE: 
+//NOTE: "Mazda_DSM_5351" -- "Mirror Switch (Right)"
+//NOTE: PID: 22 A4 9E --- Value: INACTIVE
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 9E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 9e 00 00 0c 00 	NONE	0	0
+
+//NOTE: "Mazda_DSM_5328" -- "Horizontal Left Mirror Motor"
+//NOTE: PID: 22 A4 68 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5329" -- "Common Vertical Horizontal Left Mirror Motor"
+//NOTE: PID: 22 A4 68 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_DSM_5330" -- "Vertical Left Mirror Motor"
+//NOTE: PID: 22 A4 68 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_DSM_5331" -- "Horizontal Right Mirror Motor"
+//NOTE: PID: 22 A4 68 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_DSM_5332" -- "Common Vertical Horizontal Right Mirror Motor"
+//NOTE: PID: 22 A4 68 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_DSM_5333" -- "Vertical Right Mirror Motor"
+//NOTE: PID: 22 A4 68 --- Value: On
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 68 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 68 2b 00 00 00 	NONE	0	0
+
+
+

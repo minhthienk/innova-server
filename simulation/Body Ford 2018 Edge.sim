@@ -1,0 +1,141 @@
+//NOTE: "Ford_Master_ItemID_8029" -- "(ABS) Warning Lamp"
+//NOTE: PID: 22 61 A4 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8031" -- "ADAP_F_LIGHT_IC"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8034" -- "Airbag Warning Indicator"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8042" -- "Door Ajar Warning Indicator"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8032" -- "Front Fog Lamp Indicator"
+//NOTE: PID: 22 61 A4 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8050" -- "High Beam Indicator"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8052" -- "Left Turn signal Lamp Status"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8036" -- "Park Brake Applied Lamp"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8099" -- "Rear Fog Lamp Indicator"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8059" -- "Right Turn signal Lamp Status"
+//NOTE: PID: 22 61 A4 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8043" -- "Safety Belt Warning Lamp"
+//NOTE: PID: 22 61 A4 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8085" -- "Traction Control Indicator"
+//NOTE: PID: 22 61 A4 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8070" -- "Transmission System (MIL) Fault"
+//NOTE: PID: 22 61 A4 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8030" -- "Warning Lamp Status 1 - Charge Warning"
+//NOTE: PID: 22 61 A4 --- Value: OFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 A4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 a4 10 14 2a 44 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8121" -- "All Warning Lamps"
+//NOTE: PID: 22 61 A5 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8081" -- "Malfunction Indicator Lamp"
+//NOTE: PID: 22 61 A5 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8115" -- "SIDELIGHT_LMP"
+//NOTE: PID: 22 61 A5 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8119" -- "Tire Pressure Telltale Status"
+//NOTE: PID: 22 61 A5 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8083" -- "Traction Control Off Indicator"
+//NOTE: PID: 22 61 A5 --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 A5 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 a5 00 80 80 40 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8016" -- "Bulb Failure"
+//NOTE: PID: 22 60 0F --- Value: Active
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8020" -- "Lane Departure Warning"
+//NOTE: PID: 22 60 0F --- Value: Active
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8015" -- "WARN_CITY_SAFETY_IC"
+//NOTE: PID: 22 60 0F --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_8019" -- "WARN_HILL_STRT_IC"
+//NOTE: PID: 22 60 0F --- Value: Active
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 60 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 60 0f 01 60 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8249" -- "Configurable Engine Immobilizer Mode - Check Keys"
+//NOTE: PID: 22 C0 05 --- Value: Yes
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C0 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c0 05 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8238" -- "Control Module Voltage"
+//NOTE: PID: 22 9A 01 --- Value: 10.21 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 9A 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 9a 01 95 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8198" -- "Frost warning"
+//NOTE: PID: 22 61 C6 --- Value: Indicator Lamp (Green)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 C6 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 10 08 62 61 c6 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 21 00 02 00 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8144" -- "Fuel Gauge Indicator Control"
+//NOTE: PID: 22 61 B1 --- Value: 254.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b1 fe 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8161" -- "Fuel Level Analog Input 1 Status"
+//NOTE: PID: 22 61 B7 --- Value: 36699.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B7 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b7 8f 5b 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8163" -- "Fuel Level Analog Input 2 Status"
+//NOTE: PID: 22 61 B8 --- Value: 34078.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B8 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b8 85 1e 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8140" -- "Speedometer"
+//NOTE: PID: 22 61 A9 --- Value: 249.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 A9 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 a9 f9 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8142" -- "Tachometer Gauge Indicator Control"
+//NOTE: PID: 22 61 B0 --- Value: 242.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b0 f2 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_8151" -- "Temperature Gauge"
+//NOTE: PID: 22 61 B2 --- Value: 2.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 B2 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 b2 02 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_7913" -- "Total Distance"
+//NOTE: PID: 22 40 4C --- Value: 218921.62 (miles)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 4C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 4c 35 c2 8f 00 	NONE	0	0
+
+
+

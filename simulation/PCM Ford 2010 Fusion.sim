@@ -1,0 +1,1616 @@
+//NOTE: "Ford_Master_ItemID_10822" -- "Actual Output Shaft Speed"
+//NOTE: PID: 22 1E 1B --- Value: 5570.5 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 1B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 1b 57 0a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10793" -- "Actual Turbine Shaft Speed"
+//NOTE: PID: 22 1E 13 --- Value: 2457.5 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 13 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 13 26 66 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10715" -- "Axle Ratio"
+//NOTE: PID: 22 16 F1 --- Value: 32.0 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 F1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 f1 80 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12502" -- "Engine Revolutions Per Minute"
+//NOTE: PID: 22 F4 0C --- Value: 2949.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0c 2e 14 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10718" -- "Firm Shift"
+//NOTE: PID: 22 1E 04 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10747" -- "In Gear -Transmission is applying a load to engine"
+//NOTE: PID: 22 1E 04 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10756" -- "Output Shaft Speed Reliable"
+//NOTE: PID: 22 1E 04 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10748" -- "Transmission Control Switch Pressed"
+//NOTE: PID: 22 1E 04 --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10754" -- "Transmission Control Switch Requested State"
+//NOTE: PID: 22 1E 04 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10717" -- "Transmission Fluid Temperature Status"
+//NOTE: PID: 22 1E 04 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10757" -- "Transmission Range Input Allowing Engine Start"
+//NOTE: PID: 22 1E 04 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10761" -- "Transmission Range status"
+//NOTE: PID: 22 1E 04 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10760" -- "Transmission Supply Voltage Control State"
+//NOTE: PID: 22 1E 04 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10759" -- "Turbine Shaft Speed Reliable"
+//NOTE: PID: 22 1E 04 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 04 40 00 00 0d 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10791" -- "Gear Command by Output State Control"
+//NOTE: PID: 22 1E 12 --- Value: 6
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10790" -- "Gear Commanded"
+//NOTE: PID: 22 1E 12 --- Value: Low
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 12 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 12 16 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10805" -- "Gear Ratio Commanded"
+//NOTE: PID: 22 1E 19 --- Value: 11.84 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 19 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 19 bd 70 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10803" -- "Gear Ratio Measured"
+//NOTE: PID: 22 1E 16 --- Value: 15.2 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 16 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 16 f3 33 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10845" -- "Output State Control of Torque Converter"
+//NOTE: PID: 22 1E 2E --- Value: Trans Control
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 2E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 2e 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10804" -- "Select Shift Transmission - Down Switch Input"
+//NOTE: PID: 22 1E 18 --- Value: LOW
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10810" -- "Select Shift Transmission - Up Switch Input"
+//NOTE: PID: 22 1E 18 --- Value: HIGH
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 18 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 18 00 01 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10844" -- "Shift Solenoid Pressure Control A"
+//NOTE: PID: 22 1E 33 --- Value: 78642.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 33 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 33 99 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10859" -- "Shift Solenoid Pressure Control A"
+//NOTE: PID: 22 1E 53 --- Value: 30.08 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 53 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 53 78 51 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10847" -- "Shift Solenoid Pressure Control B"
+//NOTE: PID: 22 1E 36 --- Value: 20970.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 36 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 36 28 f5 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10857" -- "Shift Solenoid Pressure Control B"
+//NOTE: PID: 22 1E 54 --- Value: 16.64 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 54 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 54 42 8f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10848" -- "Shift Solenoid Pressure Control C"
+//NOTE: PID: 22 1E 37 --- Value: 45874.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 37 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 37 59 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10860" -- "Shift Solenoid Pressure Control C"
+//NOTE: PID: 22 1E 55 --- Value: 14.08 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 55 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 55 38 51 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10849" -- "Shift Solenoid Pressure Control D"
+//NOTE: PID: 22 1E 3A --- Value: 72088.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 3A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 3a 8c cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10862" -- "Shift Solenoid Pressure Control D"
+//NOTE: PID: 22 1E 56 --- Value: 8.32 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 56 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 56 21 47 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10779" -- "Shift Solenoid Pressure Control E"
+//NOTE: PID: 22 1E 09 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 09 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 09 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10855" -- "Shift Solenoid Pressure Control E"
+//NOTE: PID: 22 1E 3B --- Value: 30146.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 3B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 3b 3a e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10863" -- "Shift Solenoid Pressure Control E"
+//NOTE: PID: 22 1E 58 --- Value: 1.28 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 58 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 58 05 1e 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10864" -- "Shift Type"
+//NOTE: PID: 22 1E 5E --- Value: Auto 5th
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 5E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 5e 08 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11305" -- "Torque Control Requested"
+//NOTE: PID: 22 03 AF --- Value: Speed Limiting
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 AF 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 af 03 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11303" -- "Torque Converter Clutch at Time Of Misfire"
+//NOTE: PID: 22 03 AD --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11304" -- "Transmission In Gear at Time Of Misfire"
+//NOTE: PID: 22 03 AD --- Value: No
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 AD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 ad 40 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10856" -- "Torque Converter Clutch Fault"
+//NOTE: PID: 22 1E 46 --- Value: No fault found.
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 46 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 46 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10853" -- "Torque Converter Clutch Solenoid"
+//NOTE: PID: 22 1E 3C --- Value: 100922.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 3C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 3c c5 1d 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10802" -- "Torque converter slip actual"
+//NOTE: PID: 22 1E 14 --- Value: 13434.75 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 14 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 14 d1 eb 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10846" -- "Torque converter slip desired"
+//NOTE: PID: 22 1E 35 --- Value: 7045.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 35 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 35 6e 14 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10825" -- "Transmission Fluid Temperature"
+//NOTE: PID: 22 1E 1C --- Value: 245.75 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 1C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 1c 0f 5c 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10828" -- "Transmission Fluid Temperature"
+//NOTE: PID: 22 1E 1D --- Value: 58.24 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 1D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 1d e8 f5 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10837" -- "Transmission range"
+//NOTE: PID: 22 1E 23 --- Value: Manual 1st
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 23 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 23 15 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10854" -- "Transmission range"
+//NOTE: PID: 22 1E 3D --- Value: 110.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 3D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 3d 8c cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10858" -- "Transmission range"
+//NOTE: PID: 22 1E 4D --- Value: 373.76 (Hz)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 4D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 4d ba e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10801" -- "Transmission Slip Ratio"
+//NOTE: PID: 22 1E 15 --- Value: 9.92 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 15 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 15 9e b8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10656" -- "Evaporative Emission Canister Purge Valve duty cycle"
+//NOTE: PID: 22 11 66 --- Value: 84.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 66 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 66 6b 85 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10659" -- "Evaporative Emission Canister Vent Valve"
+//NOTE: PID: 22 11 67 --- Value: 20.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 67 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 67 19 98 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10661" -- "Spark Advance"
+//NOTE: PID: 22 11 6B --- Value: 5242.75 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 6B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 6b 51 eb 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10672" -- "Intake Air Temperature"
+//NOTE: PID: 22 12 79 --- Value: 86.67 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 12 79 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 12 79 45 44 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10703" -- "Engine (RPM) At Time Of Misfire"
+//NOTE: PID: 22 16 D3 --- Value: 3768.25 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 D3 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 d3 3a e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10702" -- "Engine Load At Time Of Misfire"
+//NOTE: PID: 22 16 D4 --- Value: 118.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 D4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 d4 97 0a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10704" -- "Engine Off Soak Time Prior to Misfire"
+//NOTE: PID: 22 16 D7 --- Value: 1179630.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 D7 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 d7 99 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10705" -- "Engine Running Time At Time Of Misfire"
+//NOTE: PID: 22 16 D8 --- Value: 163.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 D8 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 d8 a3 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10706" -- "Number Of Trips Since The Time Of Misfire"
+//NOTE: PID: 22 16 DC --- Value: 21626.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 DC 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 dc 54 7a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10708" -- "Generator Command"
+//NOTE: PID: 22 16 E8 --- Value: 84.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 E8 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 e8 6b 85 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10713" -- "Tire Size (rev / mile)"
+//NOTE: PID: 22 16 F0 --- Value: 13762.0 (rev/mile)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 F0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 f0 35 c2 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10782" -- "Line Pressure Control (previously shown as PCA)"
+//NOTE: PID: 22 1E 0A --- Value: 31456.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 0A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 0a 3d 70 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10783" -- "(SSPCA) Status"
+//NOTE: PID: 22 1E 0C --- Value: Short to power
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 0C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 0c 04 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10785" -- "(SSPCB) Status"
+//NOTE: PID: 22 1E 0D --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 0D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 0d 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10786" -- "(SSPCC) Status"
+//NOTE: PID: 22 1E 0E --- Value: Short to power
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 0E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 0e 04 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10787" -- "(SSPCD) Status"
+//NOTE: PID: 22 1E 0F --- Value: Short circuit to ground
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 0f 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10788" -- "(SSPCE) Status"
+//NOTE: PID: 22 1E 10 --- Value: General Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 10 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 10 07 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10789" -- "Line Pressure Control measured in current (previously shown as PCA_AMP)"
+//NOTE: PID: 22 1E 11 --- Value: 14.72 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 11 3a e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10808" -- "Line Pressure Control Status (previously shown as PCA_F)"
+//NOTE: PID: 22 1E 17 --- Value: Short to power
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 17 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 17 04 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10813" -- "Line Pressure Control Desired"
+//NOTE: PID: 22 1E 1A --- Value: 32766.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 1A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 1a 3f ff 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10839" -- "Shift Identification of Shift (PID)s Lag, Time, Flare and Drop."
+//NOTE: PID: 22 1E 28 --- Value: 4-3
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 28 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 28 2b 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10840" -- "Shift Time Elapsed From 10% to 90% of Complete"
+//NOTE: PID: 22 1E 29 --- Value: 0.8 (sec)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 29 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 29 0c cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10842" -- "Shift Time Elapsed From Commanded to 10% Complete"
+//NOTE: PID: 22 1E 2A --- Value: 0.64 (sec)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 2A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 2a 0a 3d 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10841" -- "Shift RPM Rise in Input Shaft Speed Above Expected"
+//NOTE: PID: 22 1E 2B --- Value: 12943.25 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 2B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 2b ca 3d 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10843" -- "Shift RPM Drop in Input Shaft Speed Below Expected"
+//NOTE: PID: 22 1E 2D --- Value: 2621.25 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 2D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 2d 28 f5 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10861" -- "Converter Pressure Control"
+//NOTE: PID: 22 1E 59 --- Value: 5.76 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 59 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 59 17 0a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10866" -- "All Wheel Drive Clutch Diagnostic Signal"
+//NOTE: PID: 22 1E 62 --- Value: 40.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 62 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e 62 66 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10867" -- "All Wheel Drive Clutch Control Commanded"
+//NOTE: PID: 22 1E 63 --- Value: 18503.92 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 1E 63 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 1e fb 51 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10929" -- "Brake Pressure Applied"
+//NOTE: PID: 22 2B 00 --- Value: Off
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10930" -- "Brake Pedal Position"
+//NOTE: PID: 22 2B 00 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 2B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 2b 00 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10963" -- "Power steering pressure switch"
+//NOTE: PID: 22 30 01 --- Value: OFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 30 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 30 01 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10968" -- "Manifold absolute pressure sensor"
+//NOTE: PID: 22 03 01 --- Value: 58.88 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 01 eb 85 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10980" -- "Fuel Pump Fault"
+//NOTE: PID: 22 03 02 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10974" -- "Heater control for Heated Exhaust Oxygen Sensor 12 & Heated Exhaust Oxygen Sensor 22"
+//NOTE: PID: 22 03 02 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10976" -- "Heater control for Heated Exhaust Oxygen Sensor 11 and Heated Exhaust Oxygen Sensor 21"
+//NOTE: PID: 22 03 02 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10970" -- "Adaptive Fuel table 1 Status"
+//NOTE: PID: 22 03 02 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10975" -- "Downstream Oxygen Sensor Fuel Control Disabled."
+//NOTE: PID: 22 03 02 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10977" -- "Heated Exhaust Oxygen Sensor 11 Status"
+//NOTE: PID: 22 03 02 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 02 04 80 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10996" -- "Variable Cam Timing Bank 1 Exhaust Status"
+//NOTE: PID: 22 03 03 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10998" -- "Camshaft Position Sensor Bank 1 Intake Status"
+//NOTE: PID: 22 03 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10997" -- "Variable Cam Timing Bank 1 Intake Status"
+//NOTE: PID: 22 03 03 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10978" -- "(VCT) System status (open/closed loop)"
+//NOTE: PID: 22 03 03 --- Value: Normal operation, closed loop
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_10985" -- "Camshaft Position Sensor Bank 1 Exhaust Status"
+//NOTE: PID: 22 03 03 --- Value: No fault is present
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 03 80 80 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_10993" -- "Generator Voltage Desired"
+//NOTE: PID: 22 03 04 --- Value: 21.12 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 04 a8 f5 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11009" -- "Fuel pump"
+//NOTE: PID: 22 03 07 --- Value: 146.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 07 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 07 ba e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11015" -- "Desired Idle Speed (RPM)"
+//NOTE: PID: 22 03 08 --- Value: 40631.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 08 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 08 9e b7 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11026" -- "Idle Air Control"
+//NOTE: PID: 22 03 10 --- Value: Preposition Mode
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 10 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 10 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11044" -- "Actual Intake A Camshaft Position Bank 1"
+//NOTE: PID: 22 03 18 --- Value: 1884.12 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 18 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 18 75 c2 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11038" -- "Intake A Camshaft Position Duty Cycle Bank 1"
+//NOTE: PID: 22 03 16 --- Value: 172.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 16 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 16 dc 28 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11047" -- "Exhaust B Camshaft Position Duty Cycle Bank 1"
+//NOTE: PID: 22 03 17 --- Value: 30.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 17 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 17 26 66 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11050" -- "Actual Exhaust B Camshaft Position Bank 1"
+//NOTE: PID: 22 03 19 --- Value: 3932.12 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 19 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 19 f5 c2 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11052" -- "Intake A Camshaft Desired Minus Actual Bank 1"
+//NOTE: PID: 22 03 1A --- Value: 81.88 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 1A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 1a 05 1e 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11056" -- "Exhaust B Camshaft Desired Minus Actual Bank 1"
+//NOTE: PID: 22 03 1B --- Value: 3768.31 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 1B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 1b eb 85 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11053" -- "Maximum angle difference between (APP1) and (APP2)"
+//NOTE: PID: 22 03 20 --- Value: 1.38 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 20 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 20 16 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11074" -- "Fuel Rail Pressure"
+//NOTE: PID: 22 03 24 --- Value: 253.59 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 24 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 24 ca ac 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11059" -- "Accelerator Pedal Position"
+//NOTE: PID: 22 03 2B --- Value: 103.5 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 2B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 2b cf 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11085" -- "Learned Value of Throttle Angle Offset"
+//NOTE: PID: 22 03 38 --- Value: 58.84 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 38 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 38 75 ae 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11092" -- "Throttle Inlet Pressure Sensor Voltage"
+//NOTE: PID: 22 03 3C --- Value: 304.0 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 3C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 3c f3 33 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11091" -- "Measured Boost at Throttle Inlet Pressure Sensor"
+//NOTE: PID: 22 03 3E --- Value: 15.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 3E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 3e 07 ae 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11094" -- "Misfire Events During Latest Misfire Cycle"
+//NOTE: PID: 22 03 45 --- Value: 2748779068.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 45 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 45 a3 d7 0a 3c 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11090" -- "Fuel pump monitor"
+//NOTE: PID: 22 03 48 --- Value: 126.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 48 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 48 a1 47 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11109" -- "Generator Monitor Frequency"
+//NOTE: PID: 22 03 51 --- Value: 13271.0 (Hz)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 51 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 51 cf 5c 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11111" -- "Heater Current Monitor for Heated Exhaust Oxygen Sensor 12"
+//NOTE: PID: 22 03 56 --- Value: 7.68 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 56 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 56 1e b8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11112" -- "Engine coolant temperature"
+//NOTE: PID: 22 03 57 --- Value: 156.8 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 57 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 57 7d 70 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11118" -- "Barometric pressure"
+//NOTE: PID: 22 03 5A --- Value: 109.14 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 5A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 5a 57 3a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11140" -- "Generator Fault Status"
+//NOTE: PID: 22 03 5D --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11121" -- "High Resistance/Open In Generator, Battery or PCM Circuits"
+//NOTE: PID: 22 03 5D --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11114" -- "Generator Command Line Fault"
+//NOTE: PID: 22 03 5D --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11117" -- "Generator Fault Indicator Lamp"
+//NOTE: PID: 22 03 5D --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11142" -- "Generator Current Sensor Input Circuit Status"
+//NOTE: PID: 22 03 5D --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11129" -- "Generator Monitor Line Status"
+//NOTE: PID: 22 03 5D --- Value: No Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11125" -- "Generator Monitor Frequency Status"
+//NOTE: PID: 22 03 5D --- Value: FAULT HIGH
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11132" -- "Generator Regulator indicating Missing Commands"
+//NOTE: PID: 22 03 5D --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11137" -- "Generator Regulator reporting Mechanical Fault"
+//NOTE: PID: 22 03 5D --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11131" -- "Generator Regulator indicating Over Temperature"
+//NOTE: PID: 22 03 5D --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11135" -- "Generator Regulator receiving Invalid Commands"
+//NOTE: PID: 22 03 5D --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11136" -- "Generator Regulator reporting Electrical Fault"
+//NOTE: PID: 22 03 5D --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 5D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 5d 00 00 28 48 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11146" -- "Heated Exhaust Gas Oxygen Sensor (bank 1, sensor 2)"
+//NOTE: PID: 22 03 5F --- Value: 8.32 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 5F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 5f 21 47 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11150" -- "(O2S11) is active (sensor is not open circuit)"
+//NOTE: PID: 22 03 71 --- Value: Active
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 71 02 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11154" -- "Generator Monitor"
+//NOTE: PID: 22 03 78 --- Value: 130.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 78 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 78 a6 66 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11193" -- "Acceleration value of cylinder 1"
+//NOTE: PID: 22 03 82 --- Value: 2.39
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 82 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 82 99 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11191" -- "Acceleration value of cylinder 3"
+//NOTE: PID: 22 03 88 --- Value: 3.88
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 88 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 88 f8 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11204" -- "Evaporative Emission Vapour Management Fault"
+//NOTE: PID: 22 03 89 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11202" -- "(EVAP) Monitor Soak Time Conditions Met"
+//NOTE: PID: 22 03 89 --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11201" -- "Fuel Tank Pressure Transducer Status"
+//NOTE: PID: 22 03 89 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11205" -- "(EVAP) Monitor 0.020 Leak Check Complete"
+//NOTE: PID: 22 03 89 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11206" -- "Canister Venting Status"
+//NOTE: PID: 22 03 89 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11203" -- "Evaporative Emission Canister Purge Fault"
+//NOTE: PID: 22 03 89 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 89 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 89 4d 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11217" -- "Acceleration value of cylinder 4"
+//NOTE: PID: 22 03 8A --- Value: 1.3
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 8A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 8a 53 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11225" -- "Acceleration value of cylinder 2"
+//NOTE: PID: 22 03 8B --- Value: 0.67
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 8B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 8b 2b 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11232" -- "Throttle Position"
+//NOTE: PID: 22 03 8D --- Value: Closed Throttle
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 8D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 8d ff 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11235" -- "Fuel Tank Pressure"
+//NOTE: PID: 22 03 8E --- Value: 59.52 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 8E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 8e ee 14 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11237" -- "(A/C) pressure sensor"
+//NOTE: PID: 22 03 93 --- Value: 53736.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 93 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 93 68 f4 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11242" -- "Injector 4 Fault"
+//NOTE: PID: 22 03 94 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11244" -- "Injector 3 Fault"
+//NOTE: PID: 22 03 94 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11250" -- "Injector fault"
+//NOTE: PID: 22 03 94 --- Value: #2 Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11253" -- "Injector 2 Fault"
+//NOTE: PID: 22 03 94 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11251" -- "Injector 1 Fault"
+//NOTE: PID: 22 03 94 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 94 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 94 00 0f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11275" -- "Commanded duty cycle for the (O2S11) heater output."
+//NOTE: PID: 22 03 A1 --- Value: 20.78 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 A1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 a1 35 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11282" -- "Commanded duty cycle for the (O2S21) heater output."
+//NOTE: PID: 22 03 A4 --- Value: 68.63 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 A4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 a4 af 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11284" -- "Maximum Angle Difference between (TP1) sensor and (TP2) sensor"
+//NOTE: PID: 22 03 A7 --- Value: 15.44 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 A7 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 a7 f7 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11290" -- "Heater control for O2S12 Fault"
+//NOTE: PID: 22 03 A9 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11301" -- "(O2S11) is warm and ready to operate."
+//NOTE: PID: 22 03 A9 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11288" -- "Heated Exhaust Gas Oxygen Sensor Heater (bank 1, sensor 2)"
+//NOTE: PID: 22 03 A9 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11289" -- "Heater control for O2S11 Fault"
+//NOTE: PID: 22 03 A9 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11287" -- "Heated Exhaust Gas Oxygen Sensor Heater (bank 1, sensor 1)"
+//NOTE: PID: 22 03 A9 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11285" -- "(PCM) control of air fuel to check (O2S11) status."
+//NOTE: PID: 22 03 A9 --- Value: Yes
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 A9 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 a9 00 80 02 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11302" -- "Evaporative Emission Monitor"
+//NOTE: PID: 22 03 AB --- Value: 6 - Monitor Compl
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 AB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 ab 06 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11310" -- "Throttle Angle at Time Of Misfire"
+//NOTE: PID: 22 03 B1 --- Value: 40.96 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 B1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 b1 51 eb 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11309" -- "(EGR) Sensor Input At Time Of Misfire"
+//NOTE: PID: 22 03 B2 --- Value: 38.4 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 B2 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 b2 26 66 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11312" -- "Vehicle Speed At Time Of Misfire"
+//NOTE: PID: 22 03 B3 --- Value: 94.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 B3 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 b3 5e 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11313" -- "Foot Brake - Foot brake state used by strategy"
+//NOTE: PID: 22 3B 40 --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 40 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 40 02 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11314" -- "Fan Speed Desired"
+//NOTE: PID: 22 03 B9 --- Value: 162.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 B9 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 b9 cf 5c 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11319" -- "Variable Camshaft Timing Intake Desired Angle"
+//NOTE: PID: 22 03 BC --- Value: 2826.19 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 BC 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 bc b0 a3 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11332" -- "Ambient Air Temperature Sensor Voltage"
+//NOTE: PID: 22 03 BA --- Value: 169.6 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 BA 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 ba 87 ae 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11318" -- "Variable Camshaft Timing Exhaust Angle Desired"
+//NOTE: PID: 22 03 BB --- Value: 1228.75 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 BB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 bb 4c cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11320" -- "Rear O2 Fuel Trim - Bank 1"
+//NOTE: PID: 22 03 BD --- Value: 696.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 BD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 bd de b8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11346" -- "Misfire Monitor Status"
+//NOTE: PID: 22 03 C0 --- Value: Enabled
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 C0 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 c0 80 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11374" -- "Downstream Closed Loop Input Error Bank 1"
+//NOTE: PID: 22 03 CD --- Value: 0.273 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 CD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 cd 23 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11379" -- "(O2S11) Status"
+//NOTE: PID: 22 03 CF --- Value: Multiple Faults
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 CF 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 cf 20 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11382" -- "(O2S11) sensor impedance is expressed as a voltage."
+//NOTE: PID: 22 03 D1 --- Value: 43.52 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 D1 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 d1 ae 14 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11391" -- "Fuel Rail Pressure Desired"
+//NOTE: PID: 22 03 DC --- Value: 327670.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 DC 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 dc 7f ff 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11416" -- "Knock Control Spark Adjustment"
+//NOTE: PID: 22 03 EC --- Value: 30.46 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 EC 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 ec 3c eb 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11417" -- "Variable Fan Duty Cycle"
+//NOTE: PID: 22 03 F9 --- Value: 38.82 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 03 F9 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 03 f9 63 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11445" -- "Knock sensor 1"
+//NOTE: PID: 22 04 03 --- Value: 4587.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 03 11 eb 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11460" -- "Knock sensor 2"
+//NOTE: PID: 22 04 04 --- Value: 24903.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 04 61 47 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11487" -- "Electronic Throttle Control Diagnostics code used for technical assistance"
+//NOTE: PID: 22 04 14 --- Value: 901943131.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 14 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 14 35 c2 8f 5b 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11526" -- "Engine Cranking"
+//NOTE: PID: 22 04 16 --- Value: Active
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11522" -- "Low Engine Oil Pressure Switch"
+//NOTE: PID: 22 04 16 --- Value: Low
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 16 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 16 00 00 03 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11527" -- "Oxygen Sensor Trim Circuit Resistance 11 - NTK sensor"
+//NOTE: PID: 22 04 18 --- Value: 6094700.0 (Ohms)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 18 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 18 ee 13 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11529" -- "Low Side Fuel Pressure Desired"
+//NOTE: PID: 22 04 1F --- Value: 648.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 1F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 1f d8 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11536" -- "Turbocharger Bypass Valve 1"
+//NOTE: PID: 22 04 27 --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 27 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 27 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11535" -- "Throttle Position Sensor 1 Learned Offset"
+//NOTE: PID: 22 04 5C --- Value: 30.38 (°)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11533" -- "Throttle Position Sensor 2 Learned Offset"
+//NOTE: PID: 22 04 5C --- Value: 20.12 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 5C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 5c f3 a1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11591" -- "Charge Air Cooler Voltage"
+//NOTE: PID: 22 04 60 --- Value: 38.4 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 60 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 60 99 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11592" -- "Charge Air Cooler Temperature"
+//NOTE: PID: 22 04 61 --- Value: 71.67 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 61 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 61 11 eb 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11552" -- "Turbocharger Wastegate"
+//NOTE: PID: 22 04 62 --- Value: 8.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 62 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 62 0a 3d 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11598" -- "Turbocharger Bypass 1 Status"
+//NOTE: PID: 22 04 64 --- Value: Short to PWR
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 64 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 64 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11599" -- "Turbocharger Wastegate Status"
+//NOTE: PID: 22 04 65 --- Value: No Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 65 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 65 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11600" -- "Desired Boost Pressure"
+//NOTE: PID: 22 04 66 --- Value: 220.16 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 66 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 66 6e 14 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11606" -- "Injector 1 Status"
+//NOTE: PID: 22 04 6F --- Value: Hi Side INJ Short Pwr
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 6F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 6f 05 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11602" -- "Fuel Volume Control Valve"
+//NOTE: PID: 22 04 6D --- Value: 98.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 6D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 6d 7d 70 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11617" -- "Injector 2 Status"
+//NOTE: PID: 22 04 70 --- Value: Hi Side INJ Short Pwr
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 70 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 70 05 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11618" -- "Injector 4 Status"
+//NOTE: PID: 22 04 71 --- Value: Hi Side INJ Short Pwr
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 71 05 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11621" -- "Injector 3 Status"
+//NOTE: PID: 22 04 74 --- Value: Low Side INJ Short Gnd
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 74 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 74 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11699" -- "Turbocharger Inlet Sensor Voltage"
+//NOTE: PID: 22 04 95 --- Value: 17.92 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 95 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 95 47 ae 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11756" -- "Generator Current Sensor Circuit Input Voltage"
+//NOTE: PID: 22 04 F6 --- Value: 5.76 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 F6 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 f6 17 0a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11734" -- "Generator Current Sensor"
+//NOTE: PID: 22 04 F7 --- Value: 788.47 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 04 F7 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 04 f7 c5 1e 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11807" -- "Low Side Fuel Pressure"
+//NOTE: PID: 22 05 48 --- Value: 16384.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 48 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 48 80 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11810" -- "Engine Oil Life Remaining"
+//NOTE: PID: 22 05 4B --- Value: 142.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 4B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 4b 8e 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11813" -- "Low Side Fuel Pressure Voltage"
+//NOTE: PID: 22 05 4D --- Value: 61.44 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 4D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 4d f5 c2 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11815" -- "Generator Current Sensor Corrected value"
+//NOTE: PID: 22 05 51 --- Value: 675.83 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 51 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 51 a8 f5 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11838" -- "Ambient Air Temperature"
+//NOTE: PID: 22 05 7D --- Value: 88.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 7D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 7d 10 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11822" -- "Electronic Variable Air Compressor"
+//NOTE: PID: 22 05 7E --- Value: 29.8 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 7E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 7e 4c 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11839" -- "Grill Shutter A Position - Inferred"
+//NOTE: PID: 22 05 80 --- Value: 27.84 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 80 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 80 47 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11880" -- "Distance Since Brake Override Accelerator Action occurred"
+//NOTE: PID: 22 05 90 --- Value: 8140.99 (miles)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11881" -- "Number of Drive Cycles in which Brake Override Accelerator Action Possible"
+//NOTE: PID: 22 05 90 --- Value: 45.0
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11882" -- "Number of Drive Cycles where Brake Override Accelerator Action Occurred"
+//NOTE: PID: 22 05 90 --- Value: 252.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 90 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 90 fc 2d 66 66 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11896" -- "Grille Shutter A Actuator Fault - End Stop Not Found Or Found Where Not Expected"
+//NOTE: PID: 22 05 91 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11883" -- "Engine Coolant Bypass Valve Control Output"
+//NOTE: PID: 22 05 91 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11884" -- "Engine Coolant Bypass Valve Control Output Status"
+//NOTE: PID: 22 05 91 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11897" -- "Grille Shutter Module A - Indicates An Under Voltage Condition"
+//NOTE: PID: 22 05 91 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11893" -- "The Grille Shutter Module Either Is Requesting A Command To Perform Or Is Performing The End Point Calibration Process"
+//NOTE: PID: 22 05 91 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11886" -- "Wastegate Control Pressure Sensor Status"
+//NOTE: PID: 22 05 91 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11890" -- "Grille Shutter Module A - Indicates An Electrical Fault"
+//NOTE: PID: 22 05 91 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11891" -- "Grille Shutter A Is Blocked - Unable To Achieve The Commanded Position"
+//NOTE: PID: 22 05 91 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11889" -- "Grille Shutter Module A - Indicates An Over Temperature Condition."
+//NOTE: PID: 22 05 91 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 91 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 91 00 d8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11935" -- "Learned Knock/Combustion Performance Detection Rate"
+//NOTE: PID: 22 05 AB --- Value: 54.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 AB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 ab 45 1e 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11936" -- "Cylinder 1 Knock/Combustion Performance Counter"
+//NOTE: PID: 22 05 AC --- Value: 96.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 AC 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 ac 60 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11939" -- "Cylinder 2 Knock/Combustion Performance Counter"
+//NOTE: PID: 22 05 AD --- Value: 173.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 AD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 ad ad 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11943" -- "Cylinder 4 Knock/Combustion Performance Counter"
+//NOTE: PID: 22 05 AF --- Value: 45.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 AF 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 af 2d 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11941" -- "Cylinder 3 Knock/Combustion Performance Counter"
+//NOTE: PID: 22 05 AE --- Value: 109.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 AE 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 ae 6d 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11949" -- "Wastegate Control Absolute Pressure Sensor"
+//NOTE: PID: 22 05 B3 --- Value: 104.5 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 B3 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 b3 d1 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11950" -- "Wastegate Control Pressure Sensor Voltage"
+//NOTE: PID: 22 05 B4 --- Value: 42.88 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 B4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 b4 ab 85 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11951" -- "Wastegate Control Vacuum - Inferred"
+//NOTE: PID: 22 05 B5 --- Value: 107.5 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 B5 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 b5 d7 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11953" -- "Desired Wastegate Control Vacuum"
+//NOTE: PID: 22 05 B6 --- Value: 107.5 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 B6 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 b6 d7 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11961" -- "Tire Size Status of Central Vehicle Configuration"
+//NOTE: PID: 22 05 B7 --- Value: Not Received from Master
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11957" -- "Axle Ratio Status of Central Vehicle Configuration"
+//NOTE: PID: 22 05 B7 --- Value: Master Module Out of Range
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11956" -- "Vehicle Identification Number Status of Central Vehicle Configuration"
+//NOTE: PID: 22 05 B7 --- Value: Not Configured in Master
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11954" -- "Instrument Cluster Status of Central Vehicle Configuration"
+//NOTE: PID: 22 05 B7 --- Value: Data Valid or Not Used
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11952" -- "Speed Control Status of Central Vehicle Configuration"
+//NOTE: PID: 22 05 B7 --- Value: Not Received from Master
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 B7 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 b7 82 44 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11955" -- "Timer since Engine Off"
+//NOTE: PID: 22 05 B8 --- Value: 56360.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 B8 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 b8 dc 28 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11958" -- "Distance Since Automatic Engine Idle Shutdown occurred"
+//NOTE: PID: 22 05 BB --- Value: 20149.38 (miles)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11960" -- "Number of Drive Cycles in which Automatic Engine Idle Shutdown Possible"
+//NOTE: PID: 22 05 BB --- Value: 33.0
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_11959" -- "Number of Drive Cycles where Automatic Engine Idle Shutdown Occurred"
+//NOTE: PID: 22 05 BB --- Value: 17.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 BB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 bb 11 21 fd 70 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_11962" -- "Turbocharger Inlet Pressure"
+//NOTE: PID: 22 05 BE --- Value: 2457.56 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 BE 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 be 99 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12016" -- "Cylinder Head Temperature Sensor 2"
+//NOTE: PID: 22 05 FC --- Value: 819.19 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 05 FC 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 05 fc cc cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12097" -- "Engine Misfire currently detected"
+//NOTE: PID: 22 07 00 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12191" -- "Misfire Profile Correction Learned"
+//NOTE: PID: 22 07 00 --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12168" -- "Inlet Air Temperature Sensor Status"
+//NOTE: PID: 22 07 00 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12187" -- "Manifold Absolute Pressure Sensor Status"
+//NOTE: PID: 22 07 00 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12185" -- "Throttle Position Sensor Status"
+//NOTE: PID: 22 07 00 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12096" -- "Accelerator Pedal Position Sensor Status"
+//NOTE: PID: 22 07 00 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12179" -- "Throttle Angle Offset has Learned"
+//NOTE: PID: 22 07 00 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12175" -- "Engine Coolant Temperature Status"
+//NOTE: PID: 22 07 00 --- Value: No fault is present
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 07 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 07 00 00 84 08 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12204" -- "Turbocharger Inlet Sensor Status"
+//NOTE: PID: 22 07 03 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12194" -- "Turbocharger Underboost Condition"
+//NOTE: PID: 22 07 03 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12195" -- "Turbocharger Overboost Condition"
+//NOTE: PID: 22 07 03 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12198" -- "Charge Air Cooler Temperature Sensor Unreliable"
+//NOTE: PID: 22 07 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12197" -- "Barometric Pressure Unreliable"
+//NOTE: PID: 22 07 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12203" -- "Fuel Volume Control Valve Status"
+//NOTE: PID: 22 07 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12202" -- "Intake Air Temperature Sensor 1 Input Unreliable"
+//NOTE: PID: 22 07 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12200" -- "Turbocharger Boost Sensor Input Unreliable"
+//NOTE: PID: 22 07 03 --- Value: No fault is present
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12201" -- "Fuel Rail Pressure Transducer Status"
+//NOTE: PID: 22 07 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12196" -- "Ambient Air Temperature Sensor Input Unreliable"
+//NOTE: PID: 22 07 03 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12208" -- "Fuel Rail System Control Pressure Status"
+//NOTE: PID: 22 07 03 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 07 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 07 03 28 84 50 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12206" -- "Grill Shutter A Position - Commanded"
+//NOTE: PID: 22 07 07 --- Value: 89.8 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 07 07 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 07 07 e5 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12248" -- "Accelerator pedal position sensor 1"
+//NOTE: PID: 22 09 14 --- Value: 5.12 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 14 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 14 14 7a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12249" -- "Accelerator pedal position sensor 2"
+//NOTE: PID: 22 09 15 --- Value: 9.6 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 15 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 15 26 66 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12252" -- "Throttle Position Sensor 1"
+//NOTE: PID: 22 09 17 --- Value: 28.8 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 17 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 17 73 33 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12260" -- "Throttle Position Sensor 2"
+//NOTE: PID: 22 09 18 --- Value: 26.88 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 18 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 18 6b 85 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12261" -- "Electronic Throttle Control Desired"
+//NOTE: PID: 22 09 1A --- Value: 89.6 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 1A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 1a b3 33 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12268" -- "Electronic Throttle Control Actual"
+//NOTE: PID: 22 09 3C --- Value: 108.8 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 3C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 3c d9 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12281" -- "(A/C) clutch output fault detected."
+//NOTE: PID: 22 98 01 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12280" -- "Air Conditioning Compressor is being disabled due to Insufficient engine torque"
+//NOTE: PID: 22 98 01 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12277" -- "Air Conditioning Request Message Status"
+//NOTE: PID: 22 98 01 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 98 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 98 01 60 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12329" -- "Engine cooling fan operation"
+//NOTE: PID: 22 09 9B --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12333" -- "Fan speed override due to clutch fluid overheat"
+//NOTE: PID: 22 09 9B --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12334" -- "Air Conditioning Request Signal"
+//NOTE: PID: 22 09 9B --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12335" -- "Air Conditioning Compressor Commanded State"
+//NOTE: PID: 22 09 9B --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 9B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 9b 00 30 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12359" -- "(CMP) and (CKP) Synchronized"
+//NOTE: PID: 22 09 CD --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12360" -- "Crank fueling disabled"
+//NOTE: PID: 22 09 CD --- Value: No
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 CD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 cd 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12371" -- "Start engine request received over CAN network"
+//NOTE: PID: 22 A4 5F --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12369" -- "Ignition Key Status"
+//NOTE: PID: 22 A4 5F --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12368" -- "Key Position for Start Indicated"
+//NOTE: PID: 22 A4 5F --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 5F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 5f 0c 80 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12378" -- "Vehicle Enable Status"
+//NOTE: PID: 22 C1 A3 --- Value: Disabled
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C1 A3 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c1 a3 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12385" -- "Lost Communication with Starter/ Generator Control Module"
+//NOTE: PID: 22 D0 14 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12390" -- "Lost Communication with Grill Shutter Control Module A"
+//NOTE: PID: 22 D0 14 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D0 14 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d0 14 08 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12402" -- "Reference Voltage"
+//NOTE: PID: 22 D1 27 --- Value: 23.04 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 27 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 27 5c 29 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12404" -- "Vehicle Control Mode"
+//NOTE: PID: 22 D1 34 --- Value: Normal
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 34 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 34 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12405" -- "DTC Count (includes those needing no action)"
+//NOTE: PID: 22 D1 37 --- Value: 102.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 37 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 37 66 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12413" -- "Total time (ECU) has been active"
+//NOTE: PID: 22 DD 00 --- Value: 377957122.3 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 00 e1 47 ae 17 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12439" -- "Total Vehicle Distance"
+//NOTE: PID: 22 DD 01 --- Value: 9278165.01 (miles)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 01 e3 d7 0a 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12468" -- "Evaporative System Monitor Evaluated"
+//NOTE: PID: 22 F4 01 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12471" -- "Comprehensive Components Monitor Evaluated"
+//NOTE: PID: 22 F4 01 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12467" -- "All (OBD) drive cycle monitors have completed."
+//NOTE: PID: 22 F4 01 --- Value: Complete
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12462" -- "Malfunction Indicator Lamp"
+//NOTE: PID: 22 F4 01 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12464" -- "Fuel System Monitor Evaluated"
+//NOTE: PID: 22 F4 01 --- Value: No
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12472" -- "Exhaust Gas Recirculation System Evaluated"
+//NOTE: PID: 22 F4 01 --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12461" -- "Heated Exhaust Oxygen Sensor Heater System Evaluated"
+//NOTE: PID: 22 F4 01 --- Value: Yes
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12470" -- "Oxygen Sensor Monitor Evaluated"
+//NOTE: PID: 22 F4 01 --- Value: No
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 01 80 60 00 24 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12473" -- "Fuel System Status (Open/Closed Loop)"
+//NOTE: PID: 22 F4 03 --- Value: OL - Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 03 08 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12474" -- "Engine load"
+//NOTE: PID: 22 F4 04 --- Value: 25.88 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 04 42 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12488" -- "Engine coolant temperature"
+//NOTE: PID: 22 F4 05 --- Value: 115.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 05 9b 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12491" -- "Short term fuel trim 1"
+//NOTE: PID: 22 F4 06 --- Value: -70.31 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 06 26 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12494" -- "Long term fuel trim 1"
+//NOTE: PID: 22 F4 07 --- Value: 21.88 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 07 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 07 9c 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12501" -- "Manifold absolute pressure sensor"
+//NOTE: PID: 22 F4 0B --- Value: 10.0 (kPa)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12500" -- "The manifold pressure is displayed in vacuum gauge format."
+//NOTE: PID: 22 F4 0B --- Value: -103.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0b ce 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12509" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 147.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0d 93 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12515" -- "Intake Air Temperature"
+//NOTE: PID: 22 F4 0F --- Value: 151.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0f bf 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12523" -- "Throttle position (%)"
+//NOTE: PID: 22 F4 11 --- Value: 82.75 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 11 d3 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12526" -- "Engine Run Time"
+//NOTE: PID: 22 F4 1F --- Value: 58326.0 (s)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 1F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 1f e3 d6 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12510" -- "The distance travelled since the (MIL) was activated."
+//NOTE: PID: 22 F4 21 --- Value: 2035.62 (miles)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 21 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 21 0c cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12547" -- "Fuel Rail Pressure"
+//NOTE: PID: 22 F4 23 --- Value: 543940.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 23 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 23 d4 7a 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12550" -- "Commanded Evaporative Purge"
+//NOTE: PID: 22 F4 2E --- Value: 60.78 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 2E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 2e 9b 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12536" -- "Fuel Level"
+//NOTE: PID: 22 F4 2F --- Value: 91.76 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 2F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 2f ea 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12554" -- "Number Of Warm-ups Since (DTCs) Cleared"
+//NOTE: PID: 22 F4 30 --- Value: 132.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 30 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 30 84 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12555" -- "Distance Since Diagnostic Trouble Codes Cleared"
+//NOTE: PID: 22 F4 31 --- Value: 15067.05 (miles)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 31 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 31 5e b8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12558" -- "Fuel Tank Pressure displayed as inches of water"
+//NOTE: PID: 22 F4 32 --- Value: 40.68
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12559" -- "Fuel Tank Pressure displayed as inches of water"
+//NOTE: PID: 22 F4 32 --- Value: 33.42
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 32 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 32 9e 5f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12561" -- "Barometric pressure"
+//NOTE: PID: 22 F4 33 --- Value: 132.0 (kPa)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12560" -- "Barometric pressure"
+//NOTE: PID: 22 F4 33 --- Value: 140.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 33 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 33 8c 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12565" -- "Equivalence Ratio (Lambda) (Bank 1, Sensor 1)"
+//NOTE: PID: 22 F4 34 --- Value: 1.23
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12566" -- "Equivalence Ratio (Lambda) (Bank 1, Sensor 1)"
+//NOTE: PID: 22 F4 34 --- Value: 30.0 (:1)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12567" -- "Exhaust Gas Oxygen Sensor Current Bank 1 Sensor 1"
+//NOTE: PID: 22 F4 34 --- Value: -79363.28 (uA)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 34 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 34 9c ed 30 a3 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12578" -- "Fuel system monitor completed this drive cycle"
+//NOTE: PID: 22 F4 41 --- Value: Yes
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 41 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 41 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12573" -- "Module supply voltage"
+//NOTE: PID: 22 F4 42 --- Value: 64.02 (V)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_12579" -- "Battery Positive Voltage"
+//NOTE: PID: 22 F4 42 --- Value: 20.46 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 42 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 42 ff ff 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12590" -- "Absolute Load Value"
+//NOTE: PID: 22 F4 43 --- Value: 13620.78 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 43 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 43 87 ad 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12593" -- "Commanded Equivalence Ratio (Air to Fuel Mixture) Bank 1"
+//NOTE: PID: 22 F4 44 --- Value: 28.5 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 44 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 44 f9 2d 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12597" -- "Absolute Throttle Position B"
+//NOTE: PID: 22 F4 47 --- Value: 37.65 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 47 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 47 60 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12603" -- "Accelerator Pedal Position D"
+//NOTE: PID: 22 F4 49 --- Value: 56.86 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 49 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 49 91 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12605" -- "Accelerator Pedal Position E"
+//NOTE: PID: 22 F4 4A --- Value: 1.96 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 4A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 4a 05 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12611" -- "Commanded Throttle Actuator Control"
+//NOTE: PID: 22 F4 4C --- Value: 50.98 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 4C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 4c 82 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_12635" -- "Engine Coolant Temperature Sensor 1"
+//NOTE: PID: 22 F4 67 --- Value: 62.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 67 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 67 00 66 00 00 	NONE	0	0
+
+
+

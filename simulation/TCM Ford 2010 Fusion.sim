@@ -1,0 +1,290 @@
+//NOTE: "Ford_Master_ItemID_16951" -- "Actual Output Shaft Speed"
+//NOTE: PID: 22 09 49 --- Value: 10158.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 49 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 49 9e b8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16966" -- "Actual Turbine Shaft Speed"
+//NOTE: PID: 22 09 4A --- Value: 4587.5 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 4A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 4a 47 ae 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16827" -- "Brake Assist"
+//NOTE: PID: 22 19 5F --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16828" -- "Corner Control"
+//NOTE: PID: 22 19 5F --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16826" -- "Fast Off Acceleration"
+//NOTE: PID: 22 19 5F --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16825" -- "Fast On Acceleration"
+//NOTE: PID: 22 19 5F --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 5F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 5f 0f 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16857" -- "Commanded Current Shift Solenoid F"
+//NOTE: PID: 22 19 5B --- Value: 0.586 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 5B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 5b 96 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16853" -- "Commanded Pressure Shift Solenoid F"
+//NOTE: PID: 22 19 5A --- Value: 33888.92 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 5A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 5a 26 66 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17003" -- "Converter Pressure Control"
+//NOTE: PID: 22 09 CA --- Value: 1.0 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 CA 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 ca fe 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16892" -- "Engine load"
+//NOTE: PID: 22 00 04 --- Value: 7.84 (%)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16892" -- "Engine load"
+//NOTE: PID: 22 00 04 --- Value: 26.67 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 00 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 00 04 54 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16740" -- "Engine Revolutions Per Minute"
+//NOTE: PID: 22 11 65 --- Value: 8355.75 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 65 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 65 82 8f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16975" -- "Gear Command by Output State Control"
+//NOTE: PID: 22 09 72 --- Value: 1st gear
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 72 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 72 02 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16779" -- "Gear Ratio Measured"
+//NOTE: PID: 22 16 3B --- Value: 1.96 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 3B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 3b 7d be 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16852" -- "Measured Current Shift Solenoid C"
+//NOTE: PID: 22 19 57 --- Value: 0.875 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 57 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 57 e0 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16806" -- "Measured Current Shift Solenoid D"
+//NOTE: PID: 22 19 58 --- Value: 0.027 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 58 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 58 07 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16807" -- "Measured Current Shift Solenoid E"
+//NOTE: PID: 22 19 59 --- Value: 0.02 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 59 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 59 05 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16858" -- "Measured Current Shift Solenoid F"
+//NOTE: PID: 22 19 5C --- Value: 0.367 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 5C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 5c 5e 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16998" -- "Net Engine Torque"
+//NOTE: PID: 22 09 CB --- Value: 43770.16 (Nm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 CB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 cb 7f ff 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16968" -- "Output Shaft Speed Reliable"
+//NOTE: PID: 22 09 59 --- Value: Fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16970" -- "Turbine Shaft Speed Reliable"
+//NOTE: PID: 22 09 59 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 59 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 59 18 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16754" -- "Output Shaft Speed."
+//NOTE: PID: 22 11 B5 --- Value: 11960.25 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 B5 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 b5 ba e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16978" -- "Output State Control of Torque Converter"
+//NOTE: PID: 22 09 71 --- Value: Unlock
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 71 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16713" -- "Overdrive Cancel Switch/Hold Switch"
+//NOTE: PID: 22 11 01 --- Value: Depressed
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16715" -- "Transmission Range status"
+//NOTE: PID: 22 11 01 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 01 30 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16935" -- "Pressure Control Solenoid A"
+//NOTE: PID: 22 09 0B --- Value: 0.34 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 0B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 0b 57 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16944" -- "Pressure Control Solenoid A"
+//NOTE: PID: 22 09 0F --- Value: 63258.18 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 0f 47 ad 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16961" -- "Pressure Control Solenoid A Status"
+//NOTE: PID: 22 09 41 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 41 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 41 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16835" -- "Shift Control"
+//NOTE: PID: 22 19 5E --- Value: Sport
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 5E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 5e 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16725" -- "Shift Solenoid 1"
+//NOTE: PID: 22 11 05 --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16722" -- "Shift Solenoid 2"
+//NOTE: PID: 22 11 05 --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16721" -- "Transmission Over Temperature Lockup Mode"
+//NOTE: PID: 22 11 05 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 05 22 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16784" -- "Shift Solenoid 1 Status"
+//NOTE: PID: 22 16 92 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16785" -- "Shift Solenoid 2 Status"
+//NOTE: PID: 22 16 92 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 92 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 92 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16939" -- "Shift Solenoid Pressure Control D"
+//NOTE: PID: 22 09 0E --- Value: 0.16 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 0E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 0e 29 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16943" -- "Shift Solenoid Pressure Control D"
+//NOTE: PID: 22 09 12 --- Value: 142336.93 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 12 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 12 a1 47 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16994" -- "Shift Solenoid Pressure Control E"
+//NOTE: PID: 22 09 AD --- Value: 67777.85 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 AD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 ad 4c cc 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17000" -- "Shift Solenoid Pressure Control E"
+//NOTE: PID: 22 09 C8 --- Value: 0.23 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 C8 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 c8 3b 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16834" -- "Shift Solenoid Pressure Control F Status"
+//NOTE: PID: 22 19 5D --- Value: No fault found.
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 5D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 5d 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16774" -- "Torque Converter Clutch Fault"
+//NOTE: PID: 22 16 32 --- Value: No fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 32 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 32 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16996" -- "Torque Converter Clutch Solenoid Pressure - Commanded"
+//NOTE: PID: 22 09 AF --- Value: 22591.47 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 09 AF 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 09 af 19 99 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16767" -- "Torque converter slip actual"
+//NOTE: PID: 22 11 B8 --- Value: 16056.25 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 B8 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 b8 fa e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16841" -- "Torque converter slip desired"
+//NOTE: PID: 22 19 60 --- Value: 3768.25 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 19 60 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 19 60 3a e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16732" -- "Torque Converter Unlocking Due to Slipping"
+//NOTE: PID: 22 11 07 --- Value: No fault
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_16733" -- "Transmission Fluid Temperature Status"
+//NOTE: PID: 22 11 07 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 07 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 07 04 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16718" -- "Transmission Control Indicator Light"
+//NOTE: PID: 22 11 04 --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 04 04 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16765" -- "Transmission Fluid Temperature (V)"
+//NOTE: PID: 22 11 BD --- Value: 0.9 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 BD 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 bd 2e 20 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16781" -- "Transmission Fluid Temperature"
+//NOTE: PID: 22 16 74 --- Value: 1757.22 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 16 74 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 16 74 63 d8 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16738" -- "Transmission range (V)"
+//NOTE: PID: 22 11 51 --- Value: 0.85 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 51 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 51 2b 90 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16762" -- "Transmission range"
+//NOTE: PID: 22 11 B6 --- Value: Low
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 B6 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 b6 01 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16768" -- "Transmission Slip Ratio"
+//NOTE: PID: 22 11 BA --- Value: 1.64 (:1)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 BA 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 ba 69 36 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16753" -- "Turbine Shaft Speed"
+//NOTE: PID: 22 11 B4 --- Value: 3440.5 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 B4 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 b4 35 c2 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_16727" -- "Turbine Speed Sensor Failure Mode"
+//NOTE: PID: 22 11 06 --- Value: Fault
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 11 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 11 06 01 00 00 00 	NONE	0	0
+
+
+

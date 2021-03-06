@@ -1,0 +1,521 @@
+//NOTE: "Mazda_IC_286" -- "Vehicle Speed Input to Overhead Trip Computer"
+//NOTE: PID: 22 15 05 --- Value: 373.76 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 15 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 15 05 ba e1 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_657" -- "Continuous Codes"
+//NOTE: PID: 22 02 00 --- Value: 204.0
+//NOTE: 
+//NOTE: "Mazda_EATC_4001" -- "Number of (DTC) Stored in Module"
+//NOTE: PID: 22 02 00 --- Value: 209.0
+//NOTE: 
+//NOTE: "Mazda_IC_3989" -- "Number of (DTC) Stored in Module"
+//NOTE: PID: 22 02 00 --- Value: 168.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 02 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 02 00 fd 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_1056" -- "Number of Trouble Codes Set Due to Diagnostic Test"
+//NOTE: PID: 22 02 02 --- Value: 94.0
+//NOTE: 
+//NOTE: "Mazda_BSMR_1052" -- "Number of (DTC) Stored in Module"
+//NOTE: PID: 22 02 02 --- Value: 94.0
+//NOTE: 
+//NOTE: "Mazda_BSML_1053" -- "Number of (DTC) Stored in Module"
+//NOTE: PID: 22 02 02 --- Value: 5.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 02 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 02 02 5f 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2509" -- "Info Switch"
+//NOTE: PID: 22 61 01 --- Value: Depressed
+//NOTE: 
+//NOTE: "Mazda_IC_2507" -- "Reset Switch"
+//NOTE: PID: 22 61 01 --- Value: Depressed
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 01 0a 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2514" -- "Setup Switch"
+//NOTE: PID: 22 61 0C --- Value: Depressed
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 0C 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 0c 04 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2516" -- "Total Distance"
+//NOTE: PID: 22 61 82 --- Value: 3779571.4 (miles)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 82 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 82 70 a3 d7 64 	NONE	0	0
+
+//NOTE: "Mazda_IC_2536" -- "Oil Pressure Switch Control Counter"
+//NOTE: PID: 22 63 03 --- Value: 94.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 63 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 63 03 5e 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2506" -- "English / Metric Switch"
+//NOTE: PID: 22 61 00 --- Value: Invalid
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 00 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2517" -- "Fuel level"
+//NOTE: PID: 22 61 85 --- Value: 62.75 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 85 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 85 a0 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2315" -- "Generator lamp"
+//NOTE: PID: 22 63 08 --- Value: ON
+//NOTE: 
+//NOTE: "Mazda_IC_2320" -- "Low Fuel Warning Indication"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2319" -- "Door Ajar Warning Indicator"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2325" -- "Check Engine (MIL)"
+//NOTE: PID: 22 63 08 --- Value: ON
+//NOTE: 
+//NOTE: "Mazda_IC_2318" -- "Safety Belt Warning Lamp"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2323" -- "Oil Pressure Warning Lamp"
+//NOTE: PID: 22 63 08 --- Value: ON
+//NOTE: 
+//NOTE: "Mazda_IC_2322" -- "Anti-Theft Indicator"
+//NOTE: PID: 22 63 08 --- Value: De-energize
+//NOTE: 
+//NOTE: "Mazda_IC_2316" -- "High Beam Indicator"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2324" -- "(ABS) Warning Lamp"
+//NOTE: PID: 22 63 08 --- Value: ON
+//NOTE: 
+//NOTE: "Mazda_IC_2321" -- "Brake Warning Lamp"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2313" -- "Tire Pressure Monitoring System Indicator"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2317" -- "Airbag"
+//NOTE: PID: 22 63 08 --- Value: OFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 63 08 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 63 08 00 58 80 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2326" -- "Traction Assist Active Indicator"
+//NOTE: PID: 22 63 09 --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2327" -- "Cruise control lamp"
+//NOTE: PID: 22 63 09 --- Value: OFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 63 09 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 63 09 00 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2330" -- "Turn Signal Clack (turn signal TT off) Chime"
+//NOTE: PID: 22 63 0B --- Value: OFF
+//NOTE: 
+//NOTE: "Mazda_IC_2333" -- "Turn Signal Click (turn signal TT on) Chime"
+//NOTE: PID: 22 63 0B --- Value: ON
+//NOTE: 
+//NOTE: "Mazda_IC_2332" -- "Turn Signal Left On Warning Chime"
+//NOTE: PID: 22 63 0B --- Value: ON
+//NOTE: 
+//NOTE: "Mazda_IC_2331" -- "Belt Minder Chime"
+//NOTE: PID: 22 63 0B --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 63 0B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 63 0b 00 01 a0 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5135" -- "Roll Stability Control"
+//NOTE: PID: 22 63 0F --- Value: Active
+//NOTE: 
+//NOTE: "Mazda_IC_2348" -- "Roll Stability Control"
+//NOTE: PID: 22 63 0F --- Value: Active
+//NOTE: 
+//NOTE: "Mazda_IC_2335" -- "Message Center Warning Chime"
+//NOTE: PID: 22 63 0F --- Value: Inactive
+//NOTE: 
+//NOTE: "Mazda_IC_2334" -- "Park Brake Warning Chime"
+//NOTE: PID: 22 63 0F --- Value: Inactive
+//NOTE: 
+//NOTE: "Mazda_IC_2347" -- "Key In Ignition Reminder Chime"
+//NOTE: PID: 22 63 0F --- Value: Inactive
+//NOTE: 
+//NOTE: "Mazda_IC_2336" -- "Headlamps on Reminder Chime"
+//NOTE: PID: 22 63 0F --- Value: Inactive
+//NOTE: 
+//NOTE: "Mazda_IC_2349" -- "Airbag Secondary Warning"
+//NOTE: PID: 22 63 0F --- Value: Active
+//NOTE: 
+//NOTE: "Mazda_IC_2350" -- "Seatbelt Warning Chime"
+//NOTE: PID: 22 63 0F --- Value: Inactive
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 63 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 63 0f 00 88 08 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_3106" -- "Message Center Default Language"
+//NOTE: PID: 22 A1 8B --- Value: German
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A1 8B 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a1 8b 06 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2784" -- "Start (Position 3)"
+//NOTE: PID: 22 A4 30 --- Value: Yes
+//NOTE: 
+//NOTE: "Mazda_IC_2904" -- "Off"
+//NOTE: PID: 22 A4 30 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_IC_2778" -- "ACC Position"
+//NOTE: PID: 22 A4 30 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_IC_2786" -- "Ignition Switch - Run Position"
+//NOTE: PID: 22 A4 30 --- Value: Yes
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 30 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 30 18 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_2965" -- "Master Key Present"
+//NOTE: PID: 22 C1 24 --- Value: Present
+//NOTE: 
+//NOTE: "Mazda_IC_2966" -- "Vehicle Enable Status"
+//NOTE: PID: 22 C1 24 --- Value: Disabled
+//NOTE: 
+//NOTE: "Mazda_IC_2963" -- "PCM Verify OK"
+//NOTE: PID: 22 C1 24 --- Value: Yes
+//NOTE: 
+//NOTE: "Mazda_IC_2962" -- "PCM ID Status Stored"
+//NOTE: PID: 22 C1 24 --- Value: Not stored
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C1 24 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c1 24 28 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_3308" -- "Number of keys stored"
+//NOTE: PID: 22 C1 04 --- Value: 51.0
+//NOTE: 
+//NOTE: "Mazda_IC_5423" -- "Number of Keys Registered in Module"
+//NOTE: PID: 22 C1 04 --- Value: 45.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C1 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c1 04 3f 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_3165" -- "Security Access type Timed / Coded"
+//NOTE: PID: 22 C1 17 --- Value: Coded
+//NOTE: 
+//NOTE: "Mazda_IC_2937" -- "Spare Key Programming Status"
+//NOTE: PID: 22 C1 17 --- Value: Enabled
+//NOTE: 
+//NOTE: "Mazda_IC_2935" -- "(PATS) Service Module Status"
+//NOTE: PID: 22 C1 17 --- Value: No
+//NOTE: 
+//NOTE: "Mazda_IC_3163" -- "Minimum number of keys required"
+//NOTE: PID: 22 C1 17 --- Value: 8.0
+//NOTE: 
+//NOTE: "Mazda_IC_2936" -- "Unlimited Key Mode"
+//NOTE: PID: 22 C1 17 --- Value: Disabled
+//NOTE: 
+//NOTE: "Mazda_IC_5426" -- "Security Access time delay"
+//NOTE: PID: 22 C1 17 --- Value: 71.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C1 17 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c1 17 80 00 47 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_3339" -- "Unlimited Transponder Security Key ID for (PATS)"
+//NOTE: PID: 22 C1 31 --- Value: 4294967295.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C1 31 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c1 31 ff ff ff ff 	NONE	0	0
+
+//NOTE: "Mazda_IC_3471" -- "Battery Voltage"
+//NOTE: PID: 22 D1 02 --- Value: 1.5 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 02 0f 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_BSMR_1567" -- "steering wheel angle"
+//NOTE: PID: 22 33 02 --- Value: 3349.0 (°)
+//NOTE: 
+//NOTE: "Mazda_BSML_1569" -- "steering wheel angle"
+//NOTE: PID: 22 33 02 --- Value: 6.4 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 33 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 33 02 bf fa 00 00 	NONE	0	0
+
+//NOTE: "Mazda_BSMR_1649" -- "Shift Lever Position - R"
+//NOTE: PID: 22 3B 54 --- Value: R
+//NOTE: 
+//NOTE: "Mazda_BSML_1650" -- "Shift Lever Position - R"
+//NOTE: PID: 22 3B 54 --- Value: R
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 54 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 54 00 01 00 00 	NONE	0	0
+
+//NOTE: "Mazda_BSMR_1813" -- "Mirror Warning Indicator - Right"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSML_1814" -- "Turn Lamp Switch - Right"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSML_1815" -- "BSM Left Status"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSML_1816" -- "Turn Lamp Switch - Left"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSML_1817" -- "Mirror Warning Indicator - Left"
+//NOTE: PID: 22 40 31 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_BSMR_1818" -- "BSM OFF Indicator Light"
+//NOTE: PID: 22 40 31 --- Value: Off
+//NOTE: 
+//NOTE: "Mazda_BSMR_1819" -- "BSM Right Status"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSMR_1820" -- "Buzzer"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSMR_1821" -- "Turn Lamp Switch - Right"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSMR_1822" -- "Turn Lamp Switch - Left"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSML_4669" -- "Buzzer"
+//NOTE: PID: 22 40 31 --- Value: On
+//NOTE: 
+//NOTE: "Mazda_BSML_4668" -- "BSM Left Status"
+//NOTE: PID: 22 40 31 --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 31 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 31 01 01 10 00 	NONE	0	0
+
+//NOTE: "Mazda_BSML_3369" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 140.0 (Km/h)
+//NOTE: 
+//NOTE: "Mazda_BSMR_3371" -- "Vehicle Speed"
+//NOTE: PID: 22 F4 0D --- Value: 232.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 F4 0D 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 f4 0d ec 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_BSMR_3490" -- "Module Supply Voltage (IG1)"
+//NOTE: PID: 22 D1 11 --- Value: 13.5 (V)
+//NOTE: 
+//NOTE: "Mazda_BSML_3494" -- "Module Supply Voltage (IG1)"
+//NOTE: PID: 22 D1 11 --- Value: 2.3 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 11 97 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_4718" -- "Wheel Unit ID (Wheel Unit 1)"
+//NOTE: PID: 22 41 01 --- Value: 47AE147A
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 01 47 ae 14 7a 	NONE	0	0
+
+//NOTE: "Mazda_IC_4700" -- "Wheel Unit ID (Wheel Unit 2)"
+//NOTE: PID: 22 41 02 --- Value: 51EB851E
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 02 51 eb 85 1e 	NONE	0	0
+
+//NOTE: "Mazda_IC_4702" -- "Wheel Unit ID (Wheel Unit 3)"
+//NOTE: PID: 22 41 03 --- Value: A3D70A3
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 03 0a 3d 70 a3 	NONE	0	0
+
+//NOTE: "Mazda_IC_4704" -- "Wheel Unit ID (Wheel Unit 4)"
+//NOTE: PID: 22 41 04 --- Value: BD70A3D6
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 04 bd 70 a3 d6 	NONE	0	0
+
+//NOTE: "Mazda_IC_4761" -- "Tire Pressure ((FFD) 1, Wheel Unit 1)"
+//NOTE: PID: 22 41 69 --- Value: 252.63 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_4763" -- "Tire Pressure ((FFD) 1, Wheel Unit 3)"
+//NOTE: PID: 22 41 69 --- Value: 41.19 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_4764" -- "Tire Pressure ((FFD) 1, Wheel Unit 4)"
+//NOTE: PID: 22 41 69 --- Value: 111.21 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_4762" -- "Tire Pressure ((FFD) 1, Wheel Unit 2)"
+//NOTE: PID: 22 41 69 --- Value: 65.9 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 69 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 69 b8 30 1e 51 	NONE	0	0
+
+//NOTE: "Mazda_IC_4802" -- "Tire Temperature ((FFD) 2, Wheel Unit 1)"
+//NOTE: PID: 22 41 74 --- Value: 3.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_4804" -- "Tire Temperature ((FFD) 2, Wheel Unit 3)"
+//NOTE: PID: 22 41 74 --- Value: 46.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_4805" -- "Tire Temperature ((FFD) 2, Wheel Unit 4)"
+//NOTE: PID: 22 41 74 --- Value: 204.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_4803" -- "Tire Temperature ((FFD) 2, Wheel Unit 2)"
+//NOTE: PID: 22 41 74 --- Value: 36.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 74 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 74 2b 4c 56 f4 	NONE	0	0
+
+//NOTE: "Mazda_IC_4811" -- "Mileage ((FFD) 1)"
+//NOTE: PID: 22 41 77 --- Value: 74708.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 77 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 77 91 ea 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_4813" -- "Mileage ((FFD) 2)"
+//NOTE: PID: 22 41 78 --- Value: 38010.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 78 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 78 4a 3d 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_4815" -- "Speed ((FFD) 1)"
+//NOTE: PID: 22 41 81 --- Value: 512.0 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 81 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 81 10 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_4817" -- "Speed ((FFD) 2)"
+//NOTE: PID: 22 41 82 --- Value: 409.59 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 82 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 82 cc cc 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_4819" -- "Wheel Unit ID for (AI) (Wheel Unit 1)"
+//NOTE: PID: 22 41 85 --- Value: 33333333
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 85 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 85 33 33 33 33 	NONE	0	0
+
+//NOTE: "Mazda_IC_4821" -- "Wheel Unit ID for (AI) (Wheel Unit 2)"
+//NOTE: PID: 22 41 86 --- Value: B851EB84
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 86 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 86 b8 51 eb 84 	NONE	0	0
+
+//NOTE: "Mazda_IC_4731" -- "Tire Pressure ((FFD) 2, Wheel Unit 4)"
+//NOTE: PID: 22 41 70 --- Value: 347.37 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_4729" -- "Tire Pressure ((FFD) 2, Wheel Unit 2)"
+//NOTE: PID: 22 41 70 --- Value: 86.5 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_4732" -- "Tire Pressure ((FFD) 2, Wheel Unit 1)"
+//NOTE: PID: 22 41 70 --- Value: 192.22 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_4730" -- "Tire Pressure ((FFD) 2, Wheel Unit 3)"
+//NOTE: PID: 22 41 70 --- Value: 230.66 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 70 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 70 8c 3f a8 fc 	NONE	0	0
+
+//NOTE: "Mazda_IC_4735" -- "Tire Temperature ((FFD) 1, Wheel Unit 3)"
+//NOTE: PID: 22 41 73 --- Value: 192.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_4734" -- "Tire Temperature ((FFD) 1, Wheel Unit 2)"
+//NOTE: PID: 22 41 73 --- Value: 128.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_4733" -- "Tire Temperature ((FFD) 1, Wheel Unit 1)"
+//NOTE: PID: 22 41 73 --- Value: 87.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_4736" -- "Tire Temperature ((FFD) 1, Wheel Unit 4)"
+//NOTE: PID: 22 41 73 --- Value: 5.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 73 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 73 7f a8 e8 2d 	NONE	0	0
+
+//NOTE: "Mazda_IC_4823" -- "Wheel Unit ID for (AI) (Wheel Unit 3)"
+//NOTE: PID: 22 41 87 --- Value: D47AE146
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 87 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 87 d4 7a e1 46 	NONE	0	0
+
+//NOTE: "Mazda_IC_4825" -- "Wheel Unit ID for (AI) (Wheel Unit 4)"
+//NOTE: PID: 22 41 88 --- Value: 11EB851E
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 88 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 88 11 eb 85 1e 	NONE	0	0
+
+//NOTE: "Mazda_IC_5119" -- "Odometer Rolling Count"
+//NOTE: PID: 22 61 7F --- Value: 0.0224 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 7F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 7f 70 00 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5121" -- "Speedometer"
+//NOTE: PID: 22 61 96 --- Value: 465.91 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 96 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 96 e8 f5 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5124" -- "Tachometer"
+//NOTE: PID: 22 61 97 --- Value: 1966.0 (rpm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 97 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 97 1e b8 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5126" -- "Engine Coolant Temperature Gauge"
+//NOTE: PID: 22 61 98 --- Value: 2778.2 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 61 98 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 61 98 6e 16 00 00 	NONE	0	0
+
+//NOTE: "Mazda_IC_5503" -- "Tire Temperature (Wheel Unit 4)"
+//NOTE: PID: 22 C9 02 --- Value: 67.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_5500" -- "Tire Temperature (Wheel Unit 1)"
+//NOTE: PID: 22 C9 02 --- Value: 161.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_5501" -- "Tire Temperature (Wheel Unit 2)"
+//NOTE: PID: 22 C9 02 --- Value: 92.0 (°C)
+//NOTE: 
+//NOTE: "Mazda_IC_5502" -- "Tire Temperature (Wheel Unit 3)"
+//NOTE: PID: 22 C9 02 --- Value: 13.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C9 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c9 02 c9 84 35 6b 	NONE	0	0
+
+//NOTE: "Mazda_IC_5508" -- "Tire Pressure for (AI) (Wheel Unit 1)"
+//NOTE: PID: 22 C9 05 --- Value: 59.04 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_5509" -- "Tire Pressure for (AI) (Wheel Unit 2)"
+//NOTE: PID: 22 C9 05 --- Value: 23.34 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_5510" -- "Tire Pressure for (AI) (Wheel Unit 3)"
+//NOTE: PID: 22 C9 05 --- Value: 76.89 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_5511" -- "Tire Pressure for (AI) (Wheel Unit 4)"
+//NOTE: PID: 22 C9 05 --- Value: 157.9 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C9 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c9 05 2b 11 38 73 	NONE	0	0
+
+//NOTE: "Mazda_IC_5493" -- "Tire Pressure (Wheel Unit 2)"
+//NOTE: PID: 22 C9 01 --- Value: 300.69 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_5494" -- "Tire Pressure (Wheel Unit 3)"
+//NOTE: PID: 22 C9 01 --- Value: 90.62 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_5492" -- "Tire Pressure (Wheel Unit 1)"
+//NOTE: PID: 22 C9 01 --- Value: 311.67 (kPa)
+//NOTE: 
+//NOTE: "Mazda_IC_5495" -- "Tire Pressure (Wheel Unit 4)"
+//NOTE: PID: 22 C9 01 --- Value: 230.66 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 C9 01 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 c9 01 e3 db 42 a8 	NONE	0	0
+
+//NOTE: "Mazda_IC_6810" -- "Last Received Wheel Unit ID"
+//NOTE: PID: 22 E1 19 --- Value: 547AE147
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 E1 19 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 e1 19 54 7a e1 47 	NONE	0	0
+
+
+

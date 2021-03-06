@@ -1,0 +1,92 @@
+//NOTE: "Ford_Master_ItemID_3211" -- "Blind Spot Information LED Duty Cycle"
+//NOTE: PID: 22 40 31 --- Value: OFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 31 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 31 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3297" -- "CHLD_SAFTY_LED_DDM"
+//NOTE: PID: 22 A4 9E --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3293" -- "Driver's Front Window Switch - Driver's Door"
+//NOTE: PID: 22 A4 9E --- Value: OFF
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3294" -- "In_Plant_LearningDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3295" -- "In_Plant_TestingDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3296" -- "L_MIR_SEL_LED_DDM"
+//NOTE: PID: 22 A4 9E --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3278" -- "Left Mirror Select Switch"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3277" -- "Local Window Switch Status - Rear Driver Door"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3287" -- "LR_WinD_UP_SWDDM"
+//NOTE: PID: 22 A4 9E --- Value: Active
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3292" -- "Mirror Switch  (Left)"
+//NOTE: PID: 22 A4 9E --- Value: INACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3273" -- "Mirror Switch (Down)"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3291" -- "Mirror Switch (Up)"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3288" -- "Passenger's Front Window Switch - Driver's Door"
+//NOTE: PID: 22 A4 9E --- Value: Down
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3279" -- "Power Mirror Position Switch Status"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3283" -- "Power Mirror Select Switch Status"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3272" -- "Rear Left Window Switch - Driver's Door"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3281" -- "REAR_CHLDLCK_FDBACK_DDM"
+//NOTE: PID: 22 A4 9E --- Value: Unlock
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3282" -- "REAR_LCK_FDBACK_DDM"
+//NOTE: PID: 22 A4 9E --- Value: Both
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3285" -- "Rear_Wind_UpDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3276" -- "Reset Switch"
+//NOTE: PID: 22 A4 9E --- Value: Set
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3275" -- "RR_WindDown_SWDDM"
+//NOTE: PID: 22 A4 9E --- Value: Active
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3284" -- "Set Switch"
+//NOTE: PID: 22 A4 9E --- Value: Off
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 9E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 9e 1e 0c fe f2 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3237" -- "DDM_SED_4171_NA"
+//NOTE: PID: 22 41 71 --- Value: Unlocked and Double Unlocked
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 71 07 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3306" -- "Module supply voltage"
+//NOTE: PID: 22 D1 10 --- Value: 636.31 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 10 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 10 f8 8f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3221" -- "Puddle Lamp Control"
+//NOTE: PID: 22 40 EB --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 EB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 eb 01 00 00 00 	NONE	0	0
+
+
+

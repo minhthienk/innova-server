@@ -1,0 +1,751 @@
+
+###########################################
+#         Auto Generated                  #
+###########################################
+<config sw> Protocol = 29
+<config sw> PIN_KRX_CANH = 6
+<config sw> TYPE_KRX_CANH = 0
+<config sw> VOLT_KRX_CANH = 3
+<config sw> PIN_KTX_CANH = 14
+<config sw> TYPE_KTX_CANH = 0
+<config sw> VOLT_KTX_CANH = 3
+<config sw> PIN_LRX_CANH =  6
+<config sw> TYPE_LTX_CANH = 0
+<config sw> VOLT_LTX_CANH = 3
+<config sw> VREF = 0
+<config sw> BAUDRATE = 500000
+<config sw> DATABIT = 0
+<config sw> PARITY = 0
+<config sw> TBYTE = 8
+<config sw> TFRAME = 10
+<config sw> F CAN NUMBER FRAME = 1
+<config sw> RANGE =   700,7ff;
+###########################################
+#         End of config                   #
+###########################################
+
+
+
+
+
+//MODE 2 (No FreeFrame)
+INFO_DATABASE = Req>1			000007DF 08 03 02 00 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 07 42 00 00 FF 9F 88 87 	NONE	0	0
+INFO_DATABASE = Req>1			000007DF 08 03 02 20 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 07 42 20 00 00 07 F1 19 	NONE	0	0
+INFO_DATABASE = Req>1			000007DF 08 03 02 40 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 07 42 40 00 FE D0 40 00 	NONE	0	0
+INFO_DATABASE = Req>1			000007DF 08 03 02 02 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 05 42 02 00 00 00 00 00 	NONE	0	0
+
+
+
+
+//NOTE:
+//NOTE:===== MODE $09 =====
+//NOTE:. . . . . VIN: FFFFFFFFFFFFFFFFF
+INFO_DATABASE = Req>1			000007DF 08 02 09 00 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 49 00 55 40 00 00 00 	NONE	0	0
+INFO_DATABASE = Req>1			000007DF 08 02 09 08 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 10 2B 49 08 14 02 04 06 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 21 B5 02 3C 02 04 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 22 00 00 02 A8 02 04 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 23 00 00 00 02 B9 02 04 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 24 00 00 00 00 00 B5 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 25 46 02 44 02 04 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 26 00 00 00 00 00 00 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			000007DF 08 02 09 02 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 10 14 49 02 01 46 46 46 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 21 46 46 46 46 46 46 46 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 22 46 46 46 46 46 46 46 	NONE	0	0
+
+
+
+
+//NOTE:
+//NOTE:===== MODE $03=====
+//NOTE:. . . . . DTCs Parsed: 
+INFO_DATABASE = Req>1			000007DF 08 01 03 00 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 02 43 00 00 00 00 00 00 	NONE	0	0
+
+
+
+
+//NOTE:
+//NOTE:===== MODE $07=====
+//NOTE:. . . . . DTCs Parsed: 
+INFO_DATABASE = Req>1			000007DF 08 01 07 00 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 02 47 00 00 00 00 00 00 	NONE	0	0
+
+
+
+
+//NOTE:
+//NOTE:===== MODE $0A=====
+//NOTE:. . . . . DTCs Parsed: 
+INFO_DATABASE = Req>1			000007DF 08 01 0a 00 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 02 4a 00 00 00 00 00 00 	NONE	0	0
+
+
+
+
+//
+//===== MODE $01 - Check support =====
+INFO_DATABASE = Req>1			000007DF 08 02 01 00 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 00 bf ff ff ff 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			000007DF 08 02 01 20 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 20 ff ff ff ff 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			000007DF 08 02 01 40 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 40 7f f0 00 00 00 	NONE	0	0
+
+
+
+
+//NOTE:
+//NOTE:===== MODE $01 =====
+//NOTE:. . . . . I/M Monitors: 
+//NOTE:. . . . . . . . . . MIL: Off
+INFO_DATABASE = Req>1			000007DF 08 02 01 01 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 05 41 01 00 00 00 00 00 	NONE	0	0
+
+
+//NOTE:
+//NOTE:===== MODE $01 =====
+//NOTE:. . . . . Generic Live Data: 
+//NOTE: "Fuel Sys 1" -- "Fuel System 1 Status"
+//NOTE: PID: 01 03 --- Value: OL Fault B2
+//NOTE: 
+//NOTE: "Fuel Sys 2" -- "Fuel System 2 Status"
+//NOTE: PID: 01 03 --- Value: OL Fault B2
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 03 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 03 80 80 00 00 00 	NONE	0	0
+
+//NOTE: "Calc Load" -- "Calculated LOAD Value"
+//NOTE: PID: 01 04 --- Value: 64.7 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 04 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 04 a5 00 00 00 00 	NONE	0	0
+
+//NOTE: "ECT" -- "Engine Coolant Temp"
+//NOTE: PID: 01 05 --- Value: 51.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 05 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 05 5b 00 00 00 00 	NONE	0	0
+
+//NOTE: "STFT B1" -- "Short Term Fuel Trim - Bank 1"
+//NOTE: PID: 01 06 --- Value: 17.2 (%)
+//NOTE: 
+//NOTE: "STFT B3" -- "Short Term Fuel Trim - Bank 3"
+//NOTE: PID: 01 06 --- Value: -12.5 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 06 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 06 96 70 00 00 00 	NONE	0	0
+
+//NOTE: "LTFT B1" -- "Long Term Fuel Trim - Bank 1"
+//NOTE: PID: 01 07 --- Value: 82.8 (%)
+//NOTE: 
+//NOTE: "LTFT B3" -- "Long Term Fuel Trim - Bank 3"
+//NOTE: PID: 01 07 --- Value: -60.2 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 07 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 07 ea 33 00 00 00 	NONE	0	0
+
+//NOTE: "STFT B2" -- "Short Term Fuel Trim - Bank 2"
+//NOTE: PID: 01 08 --- Value: 78.9 (%)
+//NOTE: 
+//NOTE: "STFT B4" -- "Short Term Fuel Trim - Bank 4"
+//NOTE: PID: 01 08 --- Value: -38.3 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 08 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 08 e5 4f 00 00 00 	NONE	0	0
+
+//NOTE: "LTFT B2" -- "Long Term Fuel Trim - Bank 2"
+//NOTE: PID: 01 09 --- Value: -84.4 (%)
+//NOTE: 
+//NOTE: "LTFT B4" -- "Long Term Fuel Trim - Bank 4"
+//NOTE: PID: 01 09 --- Value: 35.2 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 09 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 09 14 ad 00 00 00 	NONE	0	0
+
+//NOTE: "Fuel Pres" -- "Fuel Rail Pressure"
+//NOTE: PID: 01 0A --- Value: 198.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 0A 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 0a 42 00 00 00 00 	NONE	0	0
+
+//NOTE: "MAP" -- "Intake Manifold Absolute Pressure"
+//NOTE: PID: 01 0B --- Value: 53.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 0B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 0b 35 00 00 00 00 	NONE	0	0
+
+//NOTE: "Eng RPM" -- "Engine RPM"
+//NOTE: PID: 01 0C --- Value: 5079.0
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 0C 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 0c 4f 5b 00 00 00 	NONE	0	0
+
+//NOTE: "Veh Speed" -- "Vehicle Speed Sensor"
+//NOTE: PID: 01 0D --- Value: 58.0 (km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 0D 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 0d 3a 00 00 00 00 	NONE	0	0
+
+//NOTE: "Spark Adv" -- "Ignition Timing Advance #1 Cylinder"
+//NOTE: PID: 01 0E --- Value: 7.0 (°)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 0E 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 0e 8e 00 00 00 00 	NONE	0	0
+
+//NOTE: "IAT" -- "Intake Air Temperature"
+//NOTE: PID: 01 0F --- Value: 102.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 0F 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 0f 8e 00 00 00 00 	NONE	0	0
+
+//NOTE: "MAF" -- "Air Flow Rate from Mass Air Flow Sensor"
+//NOTE: PID: 01 10 --- Value: 589.81 (g/s)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 10 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 10 e6 65 00 00 00 	NONE	0	0
+
+//NOTE: "TPS" -- "Absolute Throttle Position"
+//NOTE: PID: 01 11 --- Value: 88.6 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 11 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 11 e2 00 00 00 00 	NONE	0	0
+
+//NOTE: "Air Status" -- "Commanded Secondary Air Status"
+//NOTE: PID: 01 12 --- Value: UPS
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 12 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 12 01 00 00 00 00 	NONE	0	0
+
+//NOTE: "O2SLoc" -- "Location of Oxygen Sensors"
+//NOTE: PID: 01 13 --- Value: O2S12
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 13 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 13 02 00 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B1 S1" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 1"
+//NOTE: PID: 01 14 --- Value: 0.24 (V)
+//NOTE: 
+//NOTE: "STFT B1 S1" -- "Short Term Fuel Trim Bank 1 - Sensor 1"
+//NOTE: PID: 01 14 --- Value: -86.7 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 14 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 14 30 11 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B1 S2" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 2"
+//NOTE: PID: 01 15 --- Value: 0.14 (V)
+//NOTE: 
+//NOTE: "STFT B1 S2" -- "Short Term Fuel Trim Bank 1 - Sensor 2"
+//NOTE: PID: 01 15 --- Value: -66.4 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 15 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 15 1c 2b 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B1 S3" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 3"
+//NOTE: PID: 01 16 --- Value: 0.685 (V)
+//NOTE: 
+//NOTE: "O2S B2 S1" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 1"
+//NOTE: PID: 01 16 --- Value: 0.395 (V)
+//NOTE: 
+//NOTE: "STFT B1 S3" -- "Short Term Fuel Trim Bank 1 - Sensor 3"
+//NOTE: PID: 01 16 --- Value: 14.8 (%)
+//NOTE: 
+//NOTE: "STFT B2 S1" -- "Short Term Fuel Trim Bank 2 - Sensor 1"
+//NOTE: PID: 01 16 --- Value: -76.6 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 16 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 16 cf 9f 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B1 S4" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 4"
+//NOTE: PID: 01 17 --- Value: 0.06 (V)
+//NOTE: 
+//NOTE: "O2S B2 S2" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 2"
+//NOTE: PID: 01 17 --- Value: 0.11 (V)
+//NOTE: 
+//NOTE: "STFT B1 S4" -- "Short Term Fuel Trim Bank 1 - Sensor 4"
+//NOTE: PID: 01 17 --- Value: -18.8 (%)
+//NOTE: 
+//NOTE: "STFT B2 S2" -- "Short Term Fuel Trim Bank 2 - Sensor 2"
+//NOTE: PID: 01 17 --- Value: 67.2 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 17 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 17 1e fe 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B2 S1" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 1"
+//NOTE: PID: 01 18 --- Value: 0.43 (V)
+//NOTE: 
+//NOTE: "O2S B3 S1" -- "Oxygen Sensor Output Voltage Bank 3 - Sensor 1"
+//NOTE: PID: 01 18 --- Value: 0.905 (V)
+//NOTE: 
+//NOTE: "STFT B2 S1" -- "Short Term Fuel Trim Bank 2 - Sensor 1"
+//NOTE: PID: 01 18 --- Value: -50.8 (%)
+//NOTE: 
+//NOTE: "STFT B3 S1" -- "Short Term Fuel Trim Bank 3 - Sensor 1"
+//NOTE: PID: 01 18 --- Value: -46.9 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 18 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 18 f7 7f 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B2 S2" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 2"
+//NOTE: PID: 01 19 --- Value: 0.905 (V)
+//NOTE: 
+//NOTE: "O2S B3 S2" -- "Oxygen Sensor Output Voltage Bank 3 - Sensor 2"
+//NOTE: PID: 01 19 --- Value: 0.735 (V)
+//NOTE: 
+//NOTE: "STFT B2 S2" -- "Short Term Fuel Trim Bank 2 - Sensor 2"
+//NOTE: PID: 01 19 --- Value: -88.3 (%)
+//NOTE: 
+//NOTE: "STFT B3 S2" -- "Short Term Fuel Trim Bank 3 - Sensor 2"
+//NOTE: PID: 01 19 --- Value: 89.1 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 19 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 19 b7 ff 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B2 S3" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 3"
+//NOTE: PID: 01 1A --- Value: 0.865 (V)
+//NOTE: 
+//NOTE: "O2S B4 S1" -- "Oxygen Sensor Output Voltage Bank 4 - Sensor 1"
+//NOTE: PID: 01 1A --- Value: 1.13 (V)
+//NOTE: 
+//NOTE: "STFT B2 S3" -- "Short Term Fuel Trim Bank 2 - Sensor 3"
+//NOTE: PID: 01 1A --- Value: -4.7 (%)
+//NOTE: 
+//NOTE: "STFT B4 S1" -- "Short Term Fuel Trim Bank 4 - Sensor 1"
+//NOTE: PID: 01 1A --- Value: -98.4 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 1A 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 1a ef 7a 00 00 00 	NONE	0	0
+
+//NOTE: "O2S B2 S4" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 4"
+//NOTE: PID: 01 1B --- Value: 1.145 (V)
+//NOTE: 
+//NOTE: "O2S B4 S2" -- "Oxygen Sensor Output Voltage Bank 4 - Sensor 2"
+//NOTE: PID: 01 1B --- Value: 0.775 (V)
+//NOTE: 
+//NOTE: "STFT B2 S4" -- "Short Term Fuel Trim Bank 2 - Sensor 4"
+//NOTE: PID: 01 1B --- Value: -80.5 (%)
+//NOTE: 
+//NOTE: "STFT B4 S2" -- "Short Term Fuel Trim Bank 4 - Sensor 2"
+//NOTE: PID: 01 1B --- Value: 32.8 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 1B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 1b ff bb 00 00 00 	NONE	0	0
+
+//NOTE: "OBDSup" -- "OBD Requirements To Which Vehicle Is Designed"
+//NOTE: PID: 01 1C --- Value: HD OBD-C
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 1C 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 1c 13 00 00 00 00 	NONE	0	0
+
+//NOTE: "O2SLoc" -- "Location of Oxygen Sensors"
+//NOTE: PID: 01 1D --- Value: O2S32
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 1D 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 1d 20 00 00 00 00 	NONE	0	0
+
+//NOTE: "Aux Input Status" -- "Auxiliary Input Status"
+//NOTE: PID: 01 1E --- Value: ON
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 1E 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 1e 01 00 00 00 00 	NONE	0	0
+
+//NOTE: "Run Time" -- "Time Since Engine Start"
+//NOTE: PID: 01 1F --- Value: 4587.0 (sec)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 1F 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 1f 11 eb 00 00 00 	NONE	0	0
+
+//NOTE: 
+//NOTE: PID "20" DOES NOT EXIST IN THE DATABASE
+
+//NOTE: "MIL Dis" -- "Distance Travelled While MIL is Activated"
+//NOTE: PID: 01 21 --- Value: 20971.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 21 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 21 51 eb 00 00 00 	NONE	0	0
+
+//NOTE: "Fuel Pres" -- "Fuel Rail Pressure"
+//NOTE: PID: 01 22 --- Value: 1553.1 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 22 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 22 4c cc 00 00 00 	NONE	0	0
+
+//NOTE: "Fuel Pres" -- "Fuel Rail Pressure"
+//NOTE: PID: 01 23 --- Value: 52420.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 23 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 23 14 7a 00 00 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S1" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 1"
+//NOTE: PID: 01 24 --- Value: 1.759
+//NOTE: 
+//NOTE: "O2S B1 S1" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 1"
+//NOTE: PID: 01 24 --- Value: 5.839 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 24 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 24 e1 4c ba f6 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S2" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 2"
+//NOTE: PID: 01 25 --- Value: 0.38
+//NOTE: 
+//NOTE: "O2S B1 S2" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 2"
+//NOTE: PID: 01 25 --- Value: 6.479 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 25 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 25 30 a4 cf 74 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S3" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 3"
+//NOTE: PID: 01 26 --- Value: 1.879
+//NOTE: 
+//NOTE: "LAMBDA B2 S1" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 1"
+//NOTE: PID: 01 26 --- Value: 1.959
+//NOTE: 
+//NOTE: "O2S B1 S3" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 3"
+//NOTE: PID: 01 26 --- Value: 3.999 (V)
+//NOTE: 
+//NOTE: "O2S B2 S1" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 1"
+//NOTE: PID: 01 26 --- Value: 3.2 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 26 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 26 fa ee e6 7e 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S4" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 4"
+//NOTE: PID: 01 27 --- Value: 1.679
+//NOTE: 
+//NOTE: "LAMBDA B2 S2" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 2"
+//NOTE: PID: 01 27 --- Value: 0.92
+//NOTE: 
+//NOTE: "O2S B1 S4" -- "Oxygen Sensor Output Voltage Bank 1 - Sensor 4"
+//NOTE: PID: 01 27 --- Value: 6.879 (V)
+//NOTE: 
+//NOTE: "O2S B2 S2" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 2"
+//NOTE: PID: 01 27 --- Value: 0.16 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 27 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 27 f7 ce dd 5f 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S1" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 1"
+//NOTE: PID: 01 28 --- Value: 1.179
+//NOTE: 
+//NOTE: "LAMBDA B3 S1" -- "Equivalence Ratio (lambda) Bank 3 - Sensor 1"
+//NOTE: PID: 01 28 --- Value: 0.06
+//NOTE: 
+//NOTE: "O2S B2 S1" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 1"
+//NOTE: PID: 01 28 --- Value: 1.68 (V)
+//NOTE: 
+//NOTE: "O2S B3 S1" -- "Oxygen Sensor Output Voltage Bank 3 - Sensor 1"
+//NOTE: PID: 01 28 --- Value: 2.4 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 28 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 28 97 af 7d dd 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S2" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 2"
+//NOTE: PID: 01 29 --- Value: 1.399
+//NOTE: 
+//NOTE: "LAMBDA B3 S2" -- "Equivalence Ratio (lambda) Bank 3 - Sensor 2"
+//NOTE: PID: 01 29 --- Value: 0.02
+//NOTE: 
+//NOTE: "O2S B2 S2" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 2"
+//NOTE: PID: 01 29 --- Value: 4.959 (V)
+//NOTE: 
+//NOTE: "O2S B3 S2" -- "Oxygen Sensor Output Voltage Bank 3 - Sensor 2"
+//NOTE: PID: 01 29 --- Value: 7.279 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 29 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 29 b3 bf ff da 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S3" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 3"
+//NOTE: PID: 01 2A --- Value: 1.339
+//NOTE: 
+//NOTE: "LAMBDA B4 S1" -- "Equivalence Ratio (lambda) Bank 4 - Sensor 1"
+//NOTE: PID: 01 2A --- Value: 0.32
+//NOTE: 
+//NOTE: "O2S B2 S3" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 3"
+//NOTE: PID: 01 2A --- Value: 3.999 (V)
+//NOTE: 
+//NOTE: "O2S B4 S1" -- "Oxygen Sensor Output Voltage Bank 4 - Sensor 1"
+//NOTE: PID: 01 2A --- Value: 1.6 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 2A 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 2a ab ef b3 3f 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S4" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 4"
+//NOTE: PID: 01 2B --- Value: 0.6
+//NOTE: 
+//NOTE: "LAMBDA B4 S2" -- "Equivalence Ratio (lambda) Bank 4 - Sensor 2"
+//NOTE: PID: 01 2B --- Value: 0.58
+//NOTE: 
+//NOTE: "O2S B2 S4" -- "Oxygen Sensor Output Voltage Bank 2 - Sensor 4"
+//NOTE: PID: 01 2B --- Value: 3.2 (V)
+//NOTE: 
+//NOTE: "O2S B4 S2" -- "Oxygen Sensor Output Voltage Bank 4 - Sensor 2"
+//NOTE: PID: 01 2B --- Value: 6.159 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 2B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 2b 4e fe e7 77 00 	NONE	0	0
+
+//NOTE: "Command EGR" -- "Commanded EGR"
+//NOTE: PID: 01 2C --- Value: 23.9 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 2C 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 2c 3d 00 00 00 00 	NONE	0	0
+
+//NOTE: "EGR Error" -- "EGR Error"
+//NOTE: PID: 01 2D --- Value: -44.5 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 2D 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 2d 47 00 00 00 00 	NONE	0	0
+
+//NOTE: "Command EVAP" -- "Commanded Evaporative Purge"
+//NOTE: PID: 01 2E --- Value: 66.7 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 2E 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 2e aa 00 00 00 00 	NONE	0	0
+
+//NOTE: "Fuel Level" -- "Fuel Level Input"
+//NOTE: PID: 01 2F --- Value: 97.6 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 2F 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 2f f9 00 00 00 00 	NONE	0	0
+
+//NOTE: "Warm-up DTC Clr" -- "Number of Warm-ups Since Diagnostic Trouble Codes Cleared"
+//NOTE: PID: 01 30 --- Value: 153.0
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 30 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 30 99 00 00 00 00 	NONE	0	0
+
+//NOTE: "Clr Dist" -- "Distance Since Diagnostic Trouble Codes Cleared"
+//NOTE: PID: 01 31 --- Value: 22281.0 (km)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 31 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 31 57 09 00 00 00 	NONE	0	0
+
+//NOTE: "EVAP_VP" -- "Evap System Vapour Pressure"
+//NOTE: PID: 01 32 --- Value: 11304.8 (Pa)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 32 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 32 b0 a3 00 00 00 	NONE	0	0
+
+//NOTE: "BARO" -- "Barometric Pressure"
+//NOTE: PID: 01 33 --- Value: 237.0 (kPa)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 33 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 33 ed 00 00 00 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S1" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 1"
+//NOTE: PID: 01 34 --- Value: 0.9
+//NOTE: 
+//NOTE: "O2S B1 S1" -- "Oxygen Sensor Current Bank 1 - Sensor 1"
+//NOTE: PID: 01 34 --- Value: -51.2 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 34 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 34 73 35 4c cc 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S2" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 2"
+//NOTE: PID: 01 35 --- Value: 1.779
+//NOTE: 
+//NOTE: "O2S B1 S2" -- "Oxygen Sensor Current Bank 1 - Sensor 2"
+//NOTE: PID: 01 35 --- Value: 23.04 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 35 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 35 e3 db 97 09 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S3" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 3"
+//NOTE: PID: 01 36 --- Value: 0.44
+//NOTE: 
+//NOTE: "LAMBDA B2 S1" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 1"
+//NOTE: PID: 01 36 --- Value: 1.639
+//NOTE: 
+//NOTE: "O2S B1 S3" -- "Oxygen Sensor Current Bank 1 - Sensor 3"
+//NOTE: PID: 01 36 --- Value: 15.36 (mA )
+//NOTE: 
+//NOTE: "O2S B2 S1" -- "Oxygen Sensor Current Bank 2 - Sensor 1"
+//NOTE: PID: 01 36 --- Value: 92.16 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 36 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 36 f9 ff df 7b 00 	NONE	0	0
+
+//NOTE: "LAMBDA B1 S4" -- "Equivalence Ratio (lambda) Bank 1 - Sensor 4"
+//NOTE: PID: 01 37 --- Value: 1.219
+//NOTE: 
+//NOTE: "LAMBDA B2 S2" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 2"
+//NOTE: PID: 01 37 --- Value: 0.959
+//NOTE: 
+//NOTE: "O2S B1 S4" -- "Oxygen Sensor Current Bank 1 - Sensor 4"
+//NOTE: PID: 01 37 --- Value: 117.75 (mA )
+//NOTE: 
+//NOTE: "O2S B2 S2" -- "Oxygen Sensor Current Bank 2 - Sensor 2"
+//NOTE: PID: 01 37 --- Value: -112.64 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 37 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 37 fe ef ff dd 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S1" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 1"
+//NOTE: PID: 01 38 --- Value: 1.719
+//NOTE: 
+//NOTE: "LAMBDA B3 S1" -- "Equivalence Ratio (lambda) Bank 3 - Sensor 1"
+//NOTE: PID: 01 38 --- Value: 1.299
+//NOTE: 
+//NOTE: "O2S B2 S1" -- "Oxygen Sensor Current Bank 2 - Sensor 1"
+//NOTE: PID: 01 38 --- Value: 40.96 (mA )
+//NOTE: 
+//NOTE: "O2S B3 S1" -- "Oxygen Sensor Current Bank 3 - Sensor 1"
+//NOTE: PID: 01 38 --- Value: -25.61 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 38 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 38 fe 6d ee f5 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S2" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 2"
+//NOTE: PID: 01 39 --- Value: 0.58
+//NOTE: 
+//NOTE: "LAMBDA B3 S2" -- "Equivalence Ratio (lambda) Bank 3 - Sensor 2"
+//NOTE: PID: 01 39 --- Value: 1.399
+//NOTE: 
+//NOTE: "O2S B2 S2" -- "Oxygen Sensor Current Bank 2 - Sensor 2"
+//NOTE: PID: 01 39 --- Value: 58.88 (mA )
+//NOTE: 
+//NOTE: "O2S B3 S2" -- "Oxygen Sensor Current Bank 3 - Sensor 2"
+//NOTE: PID: 01 39 --- Value: -122.88 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 39 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 39 fb 3e bf fe 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S3" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 3"
+//NOTE: PID: 01 3A --- Value: 1.659
+//NOTE: 
+//NOTE: "LAMBDA B4 S1" -- "Equivalence Ratio (lambda) Bank 4 - Sensor 1"
+//NOTE: PID: 01 3A --- Value: 0.24
+//NOTE: 
+//NOTE: "O2S B2 S3" -- "Oxygen Sensor Current Bank 2 - Sensor 3"
+//NOTE: PID: 01 3A --- Value: 33.28 (mA )
+//NOTE: 
+//NOTE: "O2S B4 S1" -- "Oxygen Sensor Current Bank 4 - Sensor 1"
+//NOTE: PID: 01 3A --- Value: -97.28 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 3A 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 3a de ff bf ff 00 	NONE	0	0
+
+//NOTE: "LAMBDA B2 S4" -- "Equivalence Ratio (lambda) Bank 2 - Sensor 4"
+//NOTE: PID: 01 3B --- Value: 1.459
+//NOTE: 
+//NOTE: "LAMBDA B4 S2" -- "Equivalence Ratio (lambda) Bank 4 - Sensor 2"
+//NOTE: PID: 01 3B --- Value: 1.879
+//NOTE: 
+//NOTE: "O2S B2 S4" -- "Oxygen Sensor Current Bank 2 - Sensor 4"
+//NOTE: PID: 01 3B --- Value: 89.59 (mA )
+//NOTE: 
+//NOTE: "O2S B4 S2" -- "Oxygen Sensor Current Bank 4 - Sensor 2"
+//NOTE: PID: 01 3B --- Value: -28.16 (mA )
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 3B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 3b fa ec fb de 00 	NONE	0	0
+
+//NOTE: "CAT Te 11" -- "Catalyst Temperature Bank 1 Sensor 1"
+//NOTE: PID: 01 3C --- Value: 6317.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 3C 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 3c f8 50 00 00 00 	NONE	0	0
+
+//NOTE: "CAT Te 21" -- "Catalyst Temperature Bank 2 Sensor 1"
+//NOTE: PID: 01 3D --- Value: 6448.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 3D 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 3d fd 6f 00 00 00 	NONE	0	0
+
+//NOTE: "CAT Te 12" -- "Catalyst Temperature Bank 1 Sensor 2"
+//NOTE: PID: 01 3E --- Value: 5006.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 3E 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 3e c5 1d 00 00 00 	NONE	0	0
+
+//NOTE: "CAT Te 22" -- "Catalyst Temperature Bank 2 Sensor 2"
+//NOTE: PID: 01 3F --- Value: 3564.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 3F 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 3f 8c cc 00 00 00 	NONE	0	0
+
+//NOTE: 
+//NOTE: PID "40" DOES NOT EXIST IN THE DATABASE
+
+//NOTE: 
+//NOTE: PID "41" DOES NOT EXIST IN THE DATABASE
+
+//NOTE: "ECU Volts" -- "Control Module Voltage"
+//NOTE: PID: 01 42 --- Value: 59.636 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 42 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 42 e8 f4 00 00 00 	NONE	0	0
+
+//NOTE: "LOAD Value" -- "Absolute Load Value"
+//NOTE: PID: 01 43 --- Value: 15420.0 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 43 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 43 99 99 00 00 00 	NONE	0	0
+
+//NOTE: "EQ Ratio" -- "Commanded Equivalence Ratio"
+//NOTE: PID: 01 44 --- Value: 1.059
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 44 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 04 41 44 87 b0 00 00 00 	NONE	0	0
+
+//NOTE: "Rel TPS" -- "Relative Throttle Position"
+//NOTE: PID: 01 45 --- Value: 5.9 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 45 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 45 0e 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ambient" -- "Ambient Air Temperature (Same Scaling as IAT - $0F)"
+//NOTE: PID: 01 46 --- Value: 77.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 46 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 46 75 00 00 00 00 	NONE	0	0
+
+//NOTE: "TPS B" -- "Absolute Throttle Position B"
+//NOTE: PID: 01 47 --- Value: 13.7 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 47 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 47 23 00 00 00 00 	NONE	0	0
+
+//NOTE: "TPS C" -- "Absolute Throttle Position C"
+//NOTE: PID: 01 48 --- Value: 74.9 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 48 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 48 bf 00 00 00 00 	NONE	0	0
+
+//NOTE: "ACC Pedal D" -- "Accelerator Pedal Position D"
+//NOTE: PID: 01 49 --- Value: 78.8 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 49 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 49 c9 00 00 00 00 	NONE	0	0
+
+//NOTE: "ACC Pedal E" -- "Accelerator Pedal Position E"
+//NOTE: PID: 01 4A --- Value: 78.8 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 4A 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 4a c9 00 00 00 00 	NONE	0	0
+
+//NOTE: "ACC Pedal F" -- "Accelerator Pedal Position F"
+//NOTE: PID: 01 4B --- Value: 85.9 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 4B 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 4b db 00 00 00 00 	NONE	0	0
+
+//NOTE: "Command TAC" -- "Commanded Throttle Actuator Control"
+//NOTE: PID: 01 4C --- Value: 92.9 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			000007DF 08 02 01 4C 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 41 4c ed 00 00 00 00 	NONE	0	0
+
+
+
+
+

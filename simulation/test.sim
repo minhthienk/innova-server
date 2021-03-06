@@ -1,0 +1,107 @@
+
+###########################################
+#         Auto Generated                  #
+###########################################
+<config sw> Protocol = 29
+<config sw> PIN_KRX_CANH = 6
+<config sw> TYPE_KRX_CANH = 0
+<config sw> VOLT_KRX_CANH = 3
+<config sw> PIN_KTX_CANH = 14
+<config sw> TYPE_KTX_CANH = 0
+<config sw> VOLT_KTX_CANH = 3
+<config sw> PIN_LRX_CANH =  6
+<config sw> TYPE_LTX_CANH = 0
+<config sw> VOLT_LTX_CANH = 3
+<config sw> VREF = 0
+<config sw> BAUDRATE = 500000
+<config sw> DATABIT = 0
+<config sw> PARITY = 0
+<config sw> TBYTE = 8
+<config sw> TFRAME = 10
+<config sw> F CAN NUMBER FRAME = 1
+<config sw> RANGE =   700,7ff;
+###########################################
+#         End of config                   #
+###########################################
+
+//Init CAN and CAN UDS
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 02 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 04 62 02 00 0F 00 00 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 04 62 D1 00 00 00 00 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			00 00 07 xx  08 03 14 FF 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 01 54 xx xx xx xx xx xx 	NONE	0	0
+
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 02 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 04 62 02 02 00 00 00 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			00 00 07 xx  08 04 14 FF FF FF 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 01 54 00 00 00 00 00 	NONE	0	0
+
+//MODE 1
+INFO_DATABASE = Req>1			000007DF 08 02 01 00 xx xx xx xx xx 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 00 BE 3F A8 13 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			000007DF 08 02 01 01 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 06 41 01 00 07 65 00 00 	NONE	0	0
+
+INFO_DATABASE = Req>1			000007DF 08 01 04 01 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			000007E8 08 03 7F 04 22 00 00 00 00 	NONE	0	0
+
+
+
+
+//NOTE:system: PCM - Powertrain Control Module
+//NOTE:profile: Ford_PCM_PWM_001
+//NOTE:protocol: PROTOCOL_PWM (PIN2-PIN10-41600)
+//NOTE:dtc list: P1158,C1812,P2470
+//NOTE:
+//NOTE:DTC Definitions:
+//NOTE:
+//NOTE:===P1158
+//NOTE:  - Lack of (HO2S22) Switch Sensor indicates Rich
+//NOTE:
+//NOTE:===C1812
+//NOTE:  - Air Suspension Height Sensor Failure
+//NOTE:
+//NOTE:===P2470
+//NOTE:  - Exhaust Gas Temperature Sensor Circuit Low (Bank 1 Sensor 4)
+INFO_DATABASE = Req>1			C4 N/A F5 13 FF FF 00 00 00 00 	2	1d
+INFO_DATABASE = Res<1			C4 N/A F5 53 11 58 58 12 24 70 	2	1d
+
+
+
+
+//NOTE:system: IC - Instrument Cluster
+//NOTE:profile: Ford_IC_PWM_038
+//NOTE:protocol: PROTOCOL_PWM (PIN2-PIN10-41600)
+//NOTE:dtc list: P00B7,C2791,B2653,P1189,U0474,U1223
+//NOTE:
+//NOTE:DTC Definitions:
+//NOTE:
+//NOTE:===P00B7
+//NOTE:  - Engine Coolant Flow Low/Performance
+//NOTE:
+//NOTE:===C2791
+//NOTE:  - Power Steering Motor Circuit Open
+//NOTE:
+//NOTE:===B2653
+//NOTE:  - Antenna Circuit Short Circuit No. 4
+//NOTE:
+//NOTE:===P1189
+//NOTE:  - Fuel pump speed sensor / wiring
+//NOTE:
+//NOTE:===U0474
+//NOTE:  - Invalid Data Received From Restraints System Sensor D
+//NOTE:
+//NOTE:===U1223
+//NOTE:  - Invalid or Missing Data for Interior Lamps
+INFO_DATABASE = Req>1			C4 N/A F5 13 FF FF 00 00 00 00 	2	1d
+INFO_DATABASE = Res<1			C4 N/A F5 53 00 B7 67 91 a6 53 	2	1d
+INFO_DATABASE = Res<1			C4 N/A F5 53 11 89 c4 74 d2 23 	2	1d
+
+
+
+

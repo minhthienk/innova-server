@@ -1,0 +1,308 @@
+//NOTE: "Ford_Master_ItemID_3211" -- "Blind Spot Information LED Duty Cycle"
+//NOTE: PID: 22 40 31 --- Value: left
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 31 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 31 00 00 08 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3297" -- "CHLD_SAFTY_LED_DDM"
+//NOTE: PID: 22 A4 9E --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3293" -- "Driver's Front Window Switch - Driver's Door"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3294" -- "In_Plant_LearningDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3295" -- "In_Plant_TestingDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3296" -- "L_MIR_SEL_LED_DDM"
+//NOTE: PID: 22 A4 9E --- Value: ON
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3278" -- "Left Mirror Select Switch"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3277" -- "Local Window Switch Status - Rear Driver Door"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3287" -- "LR_WinD_UP_SWDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3292" -- "Mirror Switch  (Left)"
+//NOTE: PID: 22 A4 9E --- Value: INACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3273" -- "Mirror Switch (Down)"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3291" -- "Mirror Switch (Up)"
+//NOTE: PID: 22 A4 9E --- Value: ACTIVE
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3288" -- "Passenger's Front Window Switch - Driver's Door"
+//NOTE: PID: 22 A4 9E --- Value: Down
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3279" -- "Power Mirror Position Switch Status"
+//NOTE: PID: 22 A4 9E --- Value: Up
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3283" -- "Power Mirror Select Switch Status"
+//NOTE: PID: 22 A4 9E --- Value: Invalid
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3272" -- "Rear Left Window Switch - Driver's Door"
+//NOTE: PID: 22 A4 9E --- Value: Up
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3281" -- "REAR_CHLDLCK_FDBACK_DDM"
+//NOTE: PID: 22 A4 9E --- Value: Lock
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3282" -- "REAR_LCK_FDBACK_DDM"
+//NOTE: PID: 22 A4 9E --- Value: Off
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3285" -- "Rear_Wind_UpDDM"
+//NOTE: PID: 22 A4 9E --- Value: Inactive
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3276" -- "Reset Switch"
+//NOTE: PID: 22 A4 9E --- Value: Both
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3275" -- "RR_WindDown_SWDDM"
+//NOTE: PID: 22 A4 9E --- Value: Active
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_3284" -- "Set Switch"
+//NOTE: PID: 22 A4 9E --- Value: Reset
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A4 9E 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a4 9e da 0c fe e2 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3237" -- "DDM_SED_4171_NA"
+//NOTE: PID: 22 41 71 --- Value: Down
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 41 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 41 71 0b 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3306" -- "Module supply voltage"
+//NOTE: PID: 22 D1 10 --- Value: 610.07 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 10 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 10 ee 4f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_3221" -- "Puddle Lamp Control"
+//NOTE: PID: 22 40 EB --- Value: OFF
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 40 EB 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 40 eb 02 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_6550" -- "Charge Port Light Ring Display Mode"
+//NOTE: PID: 22 42 15 --- Value: Customer Selectable
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 42 15 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 42 15 03 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_6551" -- "Charge Port Light Ring State"
+//NOTE: PID: 22 42 1A --- Value: Battery Charging Is In Progress
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 42 1A 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 42 1a 04 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17992" -- "Continuous Codes"
+//NOTE: PID: 22 D1 37 --- Value: 22.0
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 37 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 37 16 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_18000" -- "External Temperature"
+//NOTE: PID: 22 DD 05 --- Value: 92.0 (°C)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 05 84 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17969" -- "Front Left Corner Height"
+//NOTE: PID: 22 3B 03 --- Value: 48295.0 (mm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 03 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 03 bd 6f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17973" -- "Front Left Corner Valve Current"
+//NOTE: PID: 22 3B 0F --- Value: 170.56 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 0f 42 a0 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17970" -- "Front Right Corner Height"
+//NOTE: PID: 22 3B 04 --- Value: 10940.0 (mm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 04 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 04 2b 84 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17974" -- "Front Right Corner Valve Current"
+//NOTE: PID: 22 3B 10 --- Value: 150.88 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 10 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 10 3a f0 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17975" -- "Left Front Damper Current"
+//NOTE: PID: 22 3B 25 --- Value: 3.66 (A)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_17976" -- "Left Rear Damper Current"
+//NOTE: PID: 22 3B 25 --- Value: 5.08 (A)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_17977" -- "Right Front Damper Current"
+//NOTE: PID: 22 3B 25 --- Value: 4.74 (A)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_17978" -- "Right Rear Damper Current"
+//NOTE: PID: 22 3B 25 --- Value: 0.76 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 25 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 25 b7 ed fe 26 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17966" -- "Left Front Damper Duty Cycle"
+//NOTE: PID: 22 3B 26 --- Value: 21.96 (%)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_17967" -- "Left Rear Damper Duty Cycle"
+//NOTE: PID: 22 3B 26 --- Value: 74.9 (%)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_17965" -- "Right Front Damper Duty Cycle"
+//NOTE: PID: 22 3B 26 --- Value: 78.82 (%)
+//NOTE: 
+//NOTE: "Ford_Master_ItemID_17968" -- "Right Rear Damper Duty Cycle"
+//NOTE: PID: 22 3B 26 --- Value: 26.67 (%)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 26 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 26 38 c9 bf 44 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17983" -- "Left Front Damper Solenoid Resistance"
+//NOTE: PID: 22 3B 74 --- Value: 2.0 (Ohms)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 74 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 74 14 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17995" -- "Left Front Height Sensor Calibration Status"
+//NOTE: PID: 22 D9 05 --- Value: Calibration Successful
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 05 02 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17979" -- "Left Front Height Sensor Voltage"
+//NOTE: PID: 22 3B 70 --- Value: 5.28 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 70 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 70 d3 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17985" -- "Left Rear Damper Solenoid Resistance"
+//NOTE: PID: 22 3B 76 --- Value: 8.3 (Ohms)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 76 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 76 53 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17997" -- "Left Rear Height Sensor Calibration Status"
+//NOTE: PID: 22 D9 07 --- Value: Not Calibrated
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 07 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 07 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17981" -- "Left Rear Height Sensor Voltage"
+//NOTE: PID: 22 3B 72 --- Value: 2.73 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 72 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 72 6d 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17971" -- "Rear Left Corner Height"
+//NOTE: PID: 22 3B 05 --- Value: 16839.0 (mm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 05 42 8f 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17963" -- "Rear Left Corner Valve Current"
+//NOTE: PID: 22 3B 11 --- Value: 478.88 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 11 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 11 bb 10 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17972" -- "Rear Right Corner Height"
+//NOTE: PID: 22 3B 06 --- Value: 51572.0 (mm)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 06 ca 3c 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17964" -- "Rear Right Corner Valve Current"
+//NOTE: PID: 22 3B 12 --- Value: 485.44 (A)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 12 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 12 bd a0 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17994" -- "Ride Control State"
+//NOTE: PID: 22 D9 00 --- Value: Mode Change Unavailable
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 00 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 00 07 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17984" -- "Right Front Damper Solenoid Resistance"
+//NOTE: PID: 22 3B 75 --- Value: 11.9 (Ohms)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 75 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 75 77 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17996" -- "Right Front Height Sensor Calibration Status"
+//NOTE: PID: 22 D9 06 --- Value: Not Calibrated
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 06 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 06 00 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17980" -- "Right Front Height Sensor Voltage"
+//NOTE: PID: 22 3B 71 --- Value: 4.33 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 71 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 71 ad 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17986" -- "Right Rear Damper Solenoid Resistance"
+//NOTE: PID: 22 3B 77 --- Value: 12.7 (Ohms)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 77 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 77 7f 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17998" -- "Right Rear Height Sensor Calibration Status"
+//NOTE: PID: 22 D9 08 --- Value: Reverted to Default
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 08 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 08 03 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17982" -- "Right Rear Height Sensor Voltage"
+//NOTE: PID: 22 3B 73 --- Value: 6.38 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 3B 73 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 3b 73 ff 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17989" -- "VDM Ignition Switch Voltage"
+//NOTE: PID: 22 A2 21 --- Value: 21.5 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 A2 21 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 a2 21 d7 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17990" -- "VDM Output Power A"
+//NOTE: PID: 22 D1 35 --- Value: 1.85 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 35 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 35 4a 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17991" -- "VDM Output Power B"
+//NOTE: PID: 22 D1 36 --- Value: 2.02 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D1 36 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d1 36 50 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17999" -- "VDM Supply Voltage"
+//NOTE: PID: 22 DD 02 --- Value: 52.25 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 DD 02 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 dd 02 d1 00 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17993" -- "VDM_Software_Supply_B_Voltage"
+//NOTE: PID: 22 D9 0F --- Value: 18.4 (V)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 D9 0F 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 d9 0f 3a e1 00 00 	NONE	0	0
+
+//NOTE: "Ford_Master_ItemID_17959" -- "Vehicle Speed"
+//NOTE: PID: 22 15 05 --- Value: 46.08 (Km/h)
+//NOTE: 
+INFO_DATABASE = Req>1			00 00 07 xx 08 03 22 15 05 00 00 00 00 	NONE	0	0
+INFO_DATABASE = Res<1			00 00 07 +08 08 07 62 15 05 17 0a 00 00 	NONE	0	0
+
+
+
